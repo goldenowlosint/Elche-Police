@@ -47,7 +47,9 @@ const anomalySchema = z.object({
   location: z
     .string()
     .optional()
-    .describe("Specific location mentioned in the post, if any. Only if isAnomaly is true"),
+    .describe(
+      "Specific location mentioned in the post, if any. Only if isAnomaly is true",
+    ),
 });
 
 export type AnomalyResult = z.infer<typeof anomalySchema>;
@@ -104,7 +106,7 @@ export const detectAnomaly = async (
 ): Promise<AnomalyResult | null> => {
   try {
     const { object } = await generateObject({
-      model: openai("gpt-4.1"),
+      model: openai("gpt-5.4-mini"),
       schema: anomalySchema,
       system: SYSTEM_PROMPT,
       prompt: `Analyze this Facebook post from the Elche community group "${groupName}" for public safety anomalies:

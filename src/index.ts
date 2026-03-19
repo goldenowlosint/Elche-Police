@@ -5,10 +5,6 @@ import {
   startTelegram,
   disconnect as disconnectTelegram,
 } from "./clients/telegram";
-import {
-  startWhatsApp,
-  disconnect as disconnectWhatsApp,
-} from "./clients/whatsapp";
 import { startFacebookMonitoring } from "./clients/facebook/groups";
 
 const app = new Hono();
@@ -27,8 +23,7 @@ const startServer = async () => {
       port,
     });
 
-    // Start messaging clients concurrently — each handles its own errors
-    await Promise.allSettled([startTelegram(), startWhatsApp()]);
+    await startTelegram();
 
     // Start Facebook group monitoring (runs immediately + daily cron)
     startFacebookMonitoring();
@@ -40,7 +35,7 @@ const startServer = async () => {
 
 const shutdown = async () => {
   console.log("\nShutting down...");
-  await Promise.allSettled([disconnectTelegram(), disconnectWhatsApp()]);
+  await disconnectTelegram();
   process.exit(0);
 };
 

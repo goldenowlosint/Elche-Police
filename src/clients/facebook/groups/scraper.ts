@@ -87,11 +87,11 @@ export const fetchGroupPosts = async (
 
   const data: FacebookApiResponse = await response.json();
 
-  if (!data.success || !data.data?.data) {
+  if (!data.success) {
     throw new Error(
       `API error for group ${group.name}: ${data.message}`,
     );
   }
 
-  return data.data.data;
+  return data.data?.data ?? [];
 };

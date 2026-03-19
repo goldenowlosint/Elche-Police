@@ -3,6 +3,7 @@ import { FACEBOOK_GROUPS, type FacebookGroup } from "./groups.js";
 import { fetchGroupPosts, type FacebookPost } from "./scraper.js";
 import { detectAnomaly, type AnomalyResult } from "./validate.js";
 import { saveToJson } from "../../../lib/save-to-json.js";
+import { persistMonitoringReport } from "./storage.js";
 
 export interface FlaggedPost {
   postId: string;
@@ -165,6 +166,20 @@ export const runFacebookMonitoring = async (): Promise<void> => {
     console.log(`[Facebook Monitor] Report saved: ${filename}.json`);
   } else {
     console.log("[Facebook Monitor] No anomalies detected in this scan");
+  }
+
+  try {
+    const { scanId, newAnomalies, updatedAnomalies } =
+      await persistMonitoringReport(report);
+    console.log(
+      `[Facebook Monitor] Persisted to DB — scan: ${scanId}, ` +
+        `new: ${newAnomalies}, updated: ${updatedAnomalies}`,
+    );
+  } catch (dbError) {
+    console.error("[Facebook Monitor] Failed to persist to database:", dbError);
+    Sentry.captureException(dbError, {
+      tags: { module: "facebookMonitor", phase: "dbPersist" },
+    });
   }
 
   const elapsed = ((Date.now() - startTime) / 1000).toFixed(1);

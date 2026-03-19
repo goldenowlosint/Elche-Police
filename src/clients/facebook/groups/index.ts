@@ -26,6 +26,7 @@ export const startFacebookMonitoring = (): void => {
 
 export { FACEBOOK_GROUPS } from "./groups.js";
 export { runFacebookMonitoring } from "./monitor.js";
+export { persistMonitoringReport } from "./storage.js";
 export type { FacebookGroup } from "./groups.js";
 export type { FacebookPost } from "./scraper.js";
 export type { AnomalyResult } from "./validate.js";
