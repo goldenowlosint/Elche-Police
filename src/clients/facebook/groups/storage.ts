@@ -1,5 +1,12 @@
 import prisma from "../../../lib/prisma.js";
-import type { MonitoringReport, FlaggedPost } from "./monitor.js";
+import type { FlaggedPost } from "./monitor.js";
+
+interface GroupScanSummary {
+  groupId: string;
+  groupName: string;
+  postsScanned: number;
+  anomaliesFound: number;
+}
 
 const parsePostDate = (dateStr: string): Date => {
   const parsed = new Date(dateStr);
@@ -37,29 +44,36 @@ const upsertAnomaly = (post: FlaggedPost, scanId: string, scrapedAt: Date) =>
     },
   });
 
-export const persistMonitoringReport = async (
-  report: MonitoringReport,
-): Promise<{ scanId: string; newAnomalies: number; updatedAnomalies: number }> => {
-  const scrapedAt = new Date();
-
-  const scan = await prisma.facebookGroupScan.create({
+export const createScan = async (scanDate: string, scanTimestamp: string) => {
+  return prisma.facebookGroupScan.create({
     data: {
-      scanDate: new Date(report.scanDate),
-      scanTimestamp: new Date(report.scanTimestamp),
-      scrapedAt,
-      totalGroupsScanned: report.totalGroupsScanned,
-      totalPostsScanned: report.totalPostsScanned,
-      anomaliesDetected: report.anomaliesDetected,
-      groupsSummary: report.groupsSummary as any,
+      scanDate: new Date(scanDate),
+      scanTimestamp: new Date(scanTimestamp),
+      totalGroupsScanned: 0,
+      totalPostsScanned: 0,
+      anomaliesDetected: 0,
+      groupsSummary: [],
     },
   });
+};
 
+/**
+ * Persists anomalies for a single group right after AI analysis completes.
+ * Returns counts of new vs updated anomalies.
+ */
+export const persistGroupAnomalies = async (
+  anomalies: FlaggedPost[],
+  scanId: string,
+): Promise<{ newAnomalies: number; updatedAnomalies: number }> => {
+  if (anomalies.length === 0) return { newAnomalies: 0, updatedAnomalies: 0 };
+
+  const scrapedAt = new Date();
   let newAnomalies = 0;
   let updatedAnomalies = 0;
 
-  const BATCH_SIZE = 10;
-  for (let i = 0; i < report.anomalies.length; i += BATCH_SIZE) {
-    const batch = report.anomalies.slice(i, i + BATCH_SIZE);
+  const DB_BATCH_SIZE = 10;
+  for (let i = 0; i < anomalies.length; i += DB_BATCH_SIZE) {
+    const batch = anomalies.slice(i, i + DB_BATCH_SIZE);
 
     const results = await Promise.allSettled(
       batch.map(async (post) => {
@@ -67,8 +81,7 @@ export const persistMonitoringReport = async (
           where: { postId: post.postId },
           select: { id: true },
         });
-
-        await upsertAnomaly(post, scan.id, scrapedAt);
+        await upsertAnomaly(post, scanId, scrapedAt);
         return existing ? "updated" : "new";
       }),
     );
@@ -83,5 +96,28 @@ export const persistMonitoringReport = async (
     }
   }
 
-  return { scanId: scan.id, newAnomalies, updatedAnomalies };
+  return { newAnomalies, updatedAnomalies };
+};
+
+/**
+ * Updates the scan record with final totals after all groups are processed.
+ */
+export const updateScanTotals = async (
+  scanId: string,
+  totals: {
+    totalGroupsScanned: number;
+    totalPostsScanned: number;
+    anomaliesDetected: number;
+    groupsSummary: GroupScanSummary[];
+  },
+) => {
+  return prisma.facebookGroupScan.update({
+    where: { id: scanId },
+    data: {
+      totalGroupsScanned: totals.totalGroupsScanned,
+      totalPostsScanned: totals.totalPostsScanned,
+      anomaliesDetected: totals.anomaliesDetected,
+      groupsSummary: totals.groupsSummary as any,
+    },
+  });
 };

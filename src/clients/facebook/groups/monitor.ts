@@ -3,7 +3,11 @@ import { FACEBOOK_GROUPS, type FacebookGroup } from "./groups.js";
 import { fetchGroupPosts, type FacebookPost } from "./scraper.js";
 import { detectAnomaly, type AnomalyResult } from "./validate.js";
 import { saveToJson } from "../../../lib/save-to-json.js";
-import { persistMonitoringReport } from "./storage.js";
+import {
+  createScan,
+  persistGroupAnomalies,
+  updateScanTotals,
+} from "./storage.js";
 
 export interface FlaggedPost {
   postId: string;
@@ -41,6 +45,8 @@ export interface MonitoringReport {
 
 const delay = (ms: number) => new Promise<void>((resolve) => setTimeout(resolve, ms));
 
+const AI_CONCURRENCY = 50;
+
 const extractFlaggedPost = (
   post: FacebookPost,
   group: FacebookGroup,
@@ -66,16 +72,23 @@ const extractFlaggedPost = (
   };
 };
 
-const processPostsBatch = async (
+/**
+ * Sends posts to OpenAI for anomaly detection in batches of AI_CONCURRENCY (50).
+ * Returns only the posts flagged as anomalies.
+ */
+const analyzePostsWithAI = async (
   posts: FacebookPost[],
   group: FacebookGroup,
-  concurrency: number = 5,
-  delayBetweenBatchesMs: number = 500,
 ): Promise<FlaggedPost[]> => {
   const flagged: FlaggedPost[] = [];
 
-  for (let i = 0; i < posts.length; i += concurrency) {
-    const batch = posts.slice(i, i + concurrency);
+  for (let i = 0; i < posts.length; i += AI_CONCURRENCY) {
+    const batch = posts.slice(i, i + AI_CONCURRENCY);
+
+    console.log(
+      `[Facebook Monitor]   → AI batch ${Math.floor(i / AI_CONCURRENCY) + 1}/${Math.ceil(posts.length / AI_CONCURRENCY)} ` +
+        `(${batch.length} posts)`,
+    );
 
     const results = await Promise.allSettled(
       batch.map(async (post) => {
@@ -93,14 +106,19 @@ const processPostsBatch = async (
       }
     }
 
-    if (i + concurrency < posts.length) {
-      await delay(delayBetweenBatchesMs);
+    // Small delay between AI batches to avoid overwhelming the API
+    if (i + AI_CONCURRENCY < posts.length) {
+      await delay(300);
     }
   }
 
   return flagged;
 };
 
+/**
+ * Pipeline per group: fetch posts → analyze with AI → persist anomalies to DB → next group.
+ * No raw posts are saved; only confirmed anomalies reach the database.
+ */
 export const runFacebookMonitoring = async (): Promise<void> => {
   const startTime = Date.now();
   const now = new Date();
@@ -109,15 +127,20 @@ export const runFacebookMonitoring = async (): Promise<void> => {
 
   console.log(`[Facebook Monitor] Starting scan at ${now.toISOString()}`);
 
-  const report: MonitoringReport = {
-    scanDate: dateStr,
-    scanTimestamp: now.toISOString(),
-    totalGroupsScanned: 0,
-    totalPostsScanned: 0,
-    anomaliesDetected: 0,
-    groupsSummary: [],
-    anomalies: [],
-  };
+  let scan: { id: string };
+  try {
+    scan = await createScan(dateStr, now.toISOString());
+  } catch (error) {
+    console.error("[Facebook Monitor] Failed to create scan record:", error);
+    Sentry.captureException(error, {
+      tags: { module: "facebookMonitor", phase: "createScan" },
+    });
+    return;
+  }
+
+  const groupsSummary: GroupScanSummary[] = [];
+  const allAnomalies: FlaggedPost[] = [];
+  let totalPostsScanned = 0;
 
   for (const group of FACEBOOK_GROUPS) {
     try {
@@ -125,29 +148,37 @@ export const runFacebookMonitoring = async (): Promise<void> => {
         `[Facebook Monitor] Fetching posts from: ${group.name} (${group.id})`,
       );
 
+      // 1. Fetch posts from Facebook API
       const posts = await fetchGroupPosts(group);
       console.log(
         `[Facebook Monitor] Fetched ${posts.length} posts from ${group.name}`,
       );
 
-      const flaggedPosts = await processPostsBatch(posts, group);
+      // 2. Send all posts to AI for anomaly detection (50 at a time)
+      const flaggedPosts = await analyzePostsWithAI(posts, group);
+      console.log(
+        `[Facebook Monitor] ${group.name}: ${flaggedPosts.length} anomalies / ${posts.length} posts`,
+      );
 
-      report.totalGroupsScanned++;
-      report.totalPostsScanned += posts.length;
-      report.anomaliesDetected += flaggedPosts.length;
-      report.anomalies.push(...flaggedPosts);
-      report.groupsSummary.push({
+      // 3. Immediately persist this group's anomalies to the database
+      if (flaggedPosts.length > 0) {
+        const { newAnomalies, updatedAnomalies } =
+          await persistGroupAnomalies(flaggedPosts, scan.id);
+        console.log(
+          `[Facebook Monitor] ${group.name}: DB persisted — new: ${newAnomalies}, updated: ${updatedAnomalies}`,
+        );
+      }
+
+      totalPostsScanned += posts.length;
+      allAnomalies.push(...flaggedPosts);
+      groupsSummary.push({
         groupId: group.id,
         groupName: group.name,
         postsScanned: posts.length,
         anomaliesFound: flaggedPosts.length,
       });
 
-      console.log(
-        `[Facebook Monitor] ${group.name}: ${flaggedPosts.length} anomalies / ${posts.length} posts`,
-      );
-
-      // 2 s gap between groups to stay within RapidAPI rate limits (500 req/hour)
+      // Gap between groups for RapidAPI rate limits
       await delay(2000);
     } catch (error) {
       console.error(
@@ -160,7 +191,32 @@ export const runFacebookMonitoring = async (): Promise<void> => {
     }
   }
 
-  if (report.anomalies.length > 0) {
+  // Update the scan record with final totals
+  try {
+    await updateScanTotals(scan.id, {
+      totalGroupsScanned: groupsSummary.length,
+      totalPostsScanned: totalPostsScanned,
+      anomaliesDetected: allAnomalies.length,
+      groupsSummary,
+    });
+  } catch (error) {
+    console.error("[Facebook Monitor] Failed to update scan totals:", error);
+    Sentry.captureException(error, {
+      tags: { module: "facebookMonitor", phase: "updateScanTotals" },
+    });
+  }
+
+  // Save JSON report for local reference
+  if (allAnomalies.length > 0) {
+    const report: MonitoringReport = {
+      scanDate: dateStr,
+      scanTimestamp: now.toISOString(),
+      totalGroupsScanned: groupsSummary.length,
+      totalPostsScanned: totalPostsScanned,
+      anomaliesDetected: allAnomalies.length,
+      groupsSummary,
+      anomalies: allAnomalies,
+    };
     const filename = `facebook-anomalies-${timeStr}`;
     await saveToJson(filename, report);
     console.log(`[Facebook Monitor] Report saved: ${filename}.json`);
@@ -168,24 +224,10 @@ export const runFacebookMonitoring = async (): Promise<void> => {
     console.log("[Facebook Monitor] No anomalies detected in this scan");
   }
 
-  try {
-    const { scanId, newAnomalies, updatedAnomalies } =
-      await persistMonitoringReport(report);
-    console.log(
-      `[Facebook Monitor] Persisted to DB — scan: ${scanId}, ` +
-        `new: ${newAnomalies}, updated: ${updatedAnomalies}`,
-    );
-  } catch (dbError) {
-    console.error("[Facebook Monitor] Failed to persist to database:", dbError);
-    Sentry.captureException(dbError, {
-      tags: { module: "facebookMonitor", phase: "dbPersist" },
-    });
-  }
-
   const elapsed = ((Date.now() - startTime) / 1000).toFixed(1);
   console.log(
     `[Facebook Monitor] Scan complete in ${elapsed}s — ` +
-      `${report.anomaliesDetected} anomalies from ${report.totalPostsScanned} posts ` +
-      `across ${report.totalGroupsScanned} groups`,
+      `${allAnomalies.length} anomalies from ${totalPostsScanned} posts ` +
+      `across ${groupsSummary.length} groups`,
   );
 };

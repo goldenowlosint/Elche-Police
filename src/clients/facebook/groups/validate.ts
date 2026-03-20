@@ -24,31 +24,31 @@ const anomalySchema = z.object({
     .number()
     .min(1)
     .max(10)
-    .optional()
+    .nullable()
     .describe(
-      "1-3: low concern, 4-6: medium, 7-10: high/critical. Only if isAnomaly is true",
+      "1-3: low concern, 4-6: medium, 7-10: high/critical. null if isAnomaly is false",
     ),
   category: z
     .enum(ANOMALY_CATEGORIES)
-    .optional()
-    .describe("Primary anomaly category. Only if isAnomaly is true"),
+    .nullable()
+    .describe("Primary anomaly category. null if isAnomaly is false"),
   summary: z
     .string()
-    .optional()
+    .nullable()
     .describe(
-      "Brief 1-2 sentence English summary of what was detected. Only if isAnomaly is true",
+      "Brief 1-2 sentence English summary of what was detected. null if isAnomaly is false",
     ),
   detectedKeywords: z
     .array(z.string())
-    .optional()
+    .nullable()
     .describe(
-      "Specific keywords/phrases from the post that triggered detection. Only if isAnomaly is true",
+      "Specific keywords/phrases from the post that triggered detection. null if isAnomaly is false",
     ),
   location: z
     .string()
-    .optional()
+    .nullable()
     .describe(
-      "Specific location mentioned in the post, if any. Only if isAnomaly is true",
+      "Specific location mentioned in the post, if any. null if not applicable",
     ),
 });
 

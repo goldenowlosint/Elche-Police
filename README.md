@@ -39,3 +39,5 @@ yarn start     # production
 
 Both Telegram and WhatsApp connect automatically using their saved sessions.
 a
+
+AIzaSyDPanXQ6zathNJs-xgp45F2ihTLnrQqEyA

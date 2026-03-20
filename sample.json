@@ -1,0 +1,3322 @@
+{
+  "results": [
+    {
+      "tweet_id": "2035018841240019158",
+      "creation_date": "Fri Mar 20 15:41:15 +0000 2026",
+      "text": "La necesaria receta que debe seguir el RCD Mallorca ante el Elche, evitar lo evitable\n\n https://t.co/5UBinY0rmY",
+      "media_url": [],
+      "video_url": null,
+      "user": {
+        "creation_date": "Thu Aug 30 11:34:06 +0000 2012",
+        "user_id": "791403206",
+        "username": "deportescopebal",
+        "name": "Deportescopebaleares",
+        "follower_count": 5206,
+        "following_count": 4090,
+        "favourites_count": 26367,
+        "is_private": false,
+        "is_verified": false,
+        "is_blue_verified": false,
+        "location": "",
+        "profile_pic_url": "https://pbs.twimg.com/profile_images/1777778266431995906/2oIrHH9q_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/791403206/1704973250",
+        "description": "Twitter Oficial de Deportes Cope Baleares. ¡A las 15:05h! COPE MÁS MALLORCA, 103.6 FM.\nCon Jordi Jiménez, Luis Ángel Trives, Pep Ll Bauzá, José Ponce",
+        "external_url": "http://www.cope.es",
+        "number_of_tweets": 133246,
+        "bot": false,
+        "timestamp": 1346326446,
+        "has_nft_avatar": false,
+        "category": null,
+        "default_profile": false,
+        "default_profile_image": false,
+        "listed_count": 66,
+        "verified_type": null
+      },
+      "language": "es",
+      "favorite_count": 0,
+      "retweet_count": 0,
+      "reply_count": 0,
+      "quote_count": 0,
+      "retweet": false,
+      "views": 11,
+      "timestamp": 1774021275,
+      "video_view_count": null,
+      "in_reply_to_status_id": null,
+      "quoted_status_id": null,
+      "binding_values": [
+        {
+          "key": "photo_image_full_size_large",
+          "value": {
+            "image_value": {
+              "height": 419,
+              "url": "https://pbs.twimg.com/card_img/2034532112242540544/2caxuDyt?format=jpg&name=800x419",
+              "width": 800
+            },
+            "type": "IMAGE"
+          }
+        },
+        {
+          "key": "thumbnail_image",
+          "value": {
+            "image_value": {
+              "height": 150,
+              "url": "https://pbs.twimg.com/card_img/2034532112242540544/2caxuDyt?format=jpg&name=280x150",
+              "width": 267
+            },
+            "type": "IMAGE"
+          }
+        },
+        {
+          "key": "description",
+          "value": {
+            "string_value": "El gol concedido al Mallorca ante el Espanyol no sólo ha provocado críticas en toda España hacia De Burgos Bengoechea sino que ha puesto alerta a los...",
+            "type": "STRING"
+          }
+        },
+        {
+          "key": "domain",
+          "value": {
+            "string_value": "www.cope.es",
+            "type": "STRING"
+          }
+        },
+        {
+          "key": "thumbnail_image_large",
+          "value": {
+            "image_value": {
+              "height": 320,
+              "url": "https://pbs.twimg.com/card_img/2034532112242540544/2caxuDyt?format=jpg&name=800x320_1",
+              "width": 569
+            },
+            "type": "IMAGE"
+          }
+        },
+        {
+          "key": "summary_photo_image_small",
+          "value": {
+            "image_value": {
+              "height": 202,
+              "url": "https://pbs.twimg.com/card_img/2034532112242540544/2caxuDyt?format=jpg&name=386x202",
+              "width": 386
+            },
+            "type": "IMAGE"
+          }
+        },
+        {
+          "key": "thumbnail_image_original",
+          "value": {
+            "image_value": {
+              "height": 1080,
+              "url": "https://pbs.twimg.com/card_img/2034532112242540544/2caxuDyt?format=jpg&name=orig",
+              "width": 1920
+            },
+            "type": "IMAGE"
+          }
+        },
+        {
+          "key": "site",
+          "value": {
+            "scribe_key": "publisher_id",
+            "type": "USER",
+            "user_value": {
+              "id_str": "9706822",
+              "path": []
+            }
+          }
+        },
+        {
+          "key": "photo_image_full_size_small",
+          "value": {
+            "image_value": {
+              "height": 202,
+              "url": "https://pbs.twimg.com/card_img/2034532112242540544/2caxuDyt?format=jpg&name=386x202",
+              "width": 386
+            },
+            "type": "IMAGE"
+          }
+        },
+        {
+          "key": "summary_photo_image_large",
+          "value": {
+            "image_value": {
+              "height": 419,
+              "url": "https://pbs.twimg.com/card_img/2034532112242540544/2caxuDyt?format=jpg&name=800x419",
+              "width": 800
+            },
+            "type": "IMAGE"
+          }
+        },
+        {
+          "key": "thumbnail_image_small",
+          "value": {
+            "image_value": {
+              "height": 81,
+              "url": "https://pbs.twimg.com/card_img/2034532112242540544/2caxuDyt?format=jpg&name=144x144",
+              "width": 144
+            },
+            "type": "IMAGE"
+          }
+        },
+        {
+          "key": "creator",
+          "value": {
+            "type": "USER",
+            "user_value": {
+              "id_str": "9706822",
+              "path": []
+            }
+          }
+        },
+        {
+          "key": "thumbnail_image_x_large",
+          "value": {
+            "image_value": {
+              "height": 1080,
+              "url": "https://pbs.twimg.com/card_img/2034532112242540544/2caxuDyt?format=png&name=2048x2048_2_exp",
+              "width": 1920
+            },
+            "type": "IMAGE"
+          }
+        },
+        {
+          "key": "photo_image_full_size_original",
+          "value": {
+            "image_value": {
+              "height": 1080,
+              "url": "https://pbs.twimg.com/card_img/2034532112242540544/2caxuDyt?format=jpg&name=orig",
+              "width": 1920
+            },
+            "type": "IMAGE"
+          }
+        },
+        {
+          "key": "vanity_url",
+          "value": {
+            "scribe_key": "vanity_url",
+            "string_value": "cope.es",
+            "type": "STRING"
+          }
+        },
+        {
+          "key": "photo_image_full_size",
+          "value": {
+            "image_value": {
+              "height": 314,
+              "url": "https://pbs.twimg.com/card_img/2034532112242540544/2caxuDyt?format=jpg&name=600x314",
+              "width": 600
+            },
+            "type": "IMAGE"
+          }
+        },
+        {
+          "key": "thumbnail_image_color",
+          "value": {
+            "image_color_value": {
+              "palette": [
+                {
+                  "percentage": 30.48,
+                  "rgb": {
+                    "blue": 56,
+                    "green": 51,
+                    "red": 61
+                  }
+                },
+                {
+                  "percentage": 22.85,
+                  "rgb": {
+                    "blue": 48,
+                    "green": 109,
+                    "red": 86
+                  }
+                },
+                {
+                  "percentage": 13.28,
+                  "rgb": {
+                    "blue": 165,
+                    "green": 165,
+                    "red": 165
+                  }
+                },
+                {
+                  "percentage": 5.79,
+                  "rgb": {
+                    "blue": 130,
+                    "green": 78,
+                    "red": 61
+                  }
+                },
+                {
+                  "percentage": 4.76,
+                  "rgb": {
+                    "blue": 72,
+                    "green": 84,
+                    "red": 82
+                  }
+                }
+              ]
+            },
+            "type": "IMAGE_COLOR"
+          }
+        },
+        {
+          "key": "title",
+          "value": {
+            "string_value": "La necesaria receta que debe seguir el RCD Mallorca ante el Elche, evitar lo evitable",
+            "type": "STRING"
+          }
+        },
+        {
+          "key": "summary_photo_image_color",
+          "value": {
+            "image_color_value": {
+              "palette": [
+                {
+                  "percentage": 30.48,
+                  "rgb": {
+                    "blue": 56,
+                    "green": 51,
+                    "red": 61
+                  }
+                },
+                {
+                  "percentage": 22.85,
+                  "rgb": {
+                    "blue": 48,
+                    "green": 109,
+                    "red": 86
+                  }
+                },
+                {
+                  "percentage": 13.28,
+                  "rgb": {
+                    "blue": 165,
+                    "green": 165,
+                    "red": 165
+                  }
+                },
+                {
+                  "percentage": 5.79,
+                  "rgb": {
+                    "blue": 130,
+                    "green": 78,
+                    "red": 61
+                  }
+                },
+                {
+                  "percentage": 4.76,
+                  "rgb": {
+                    "blue": 72,
+                    "green": 84,
+                    "red": 82
+                  }
+                }
+              ]
+            },
+            "type": "IMAGE_COLOR"
+          }
+        },
+        {
+          "key": "summary_photo_image_x_large",
+          "value": {
+            "image_value": {
+              "height": 1080,
+              "url": "https://pbs.twimg.com/card_img/2034532112242540544/2caxuDyt?format=png&name=2048x2048_2_exp",
+              "width": 1920
+            },
+            "type": "IMAGE"
+          }
+        },
+        {
+          "key": "summary_photo_image",
+          "value": {
+            "image_value": {
+              "height": 314,
+              "url": "https://pbs.twimg.com/card_img/2034532112242540544/2caxuDyt?format=jpg&name=600x314",
+              "width": 600
+            },
+            "type": "IMAGE"
+          }
+        },
+        {
+          "key": "photo_image_full_size_color",
+          "value": {
+            "image_color_value": {
+              "palette": [
+                {
+                  "percentage": 30.48,
+                  "rgb": {
+                    "blue": 56,
+                    "green": 51,
+                    "red": 61
+                  }
+                },
+                {
+                  "percentage": 22.85,
+                  "rgb": {
+                    "blue": 48,
+                    "green": 109,
+                    "red": 86
+                  }
+                },
+                {
+                  "percentage": 13.28,
+                  "rgb": {
+                    "blue": 165,
+                    "green": 165,
+                    "red": 165
+                  }
+                },
+                {
+                  "percentage": 5.79,
+                  "rgb": {
+                    "blue": 130,
+                    "green": 78,
+                    "red": 61
+                  }
+                },
+                {
+                  "percentage": 4.76,
+                  "rgb": {
+                    "blue": 72,
+                    "green": 84,
+                    "red": 82
+                  }
+                }
+              ]
+            },
+            "type": "IMAGE_COLOR"
+          }
+        },
+        {
+          "key": "photo_image_full_size_x_large",
+          "value": {
+            "image_value": {
+              "height": 1080,
+              "url": "https://pbs.twimg.com/card_img/2034532112242540544/2caxuDyt?format=png&name=2048x2048_2_exp",
+              "width": 1920
+            },
+            "type": "IMAGE"
+          }
+        },
+        {
+          "key": "card_url",
+          "value": {
+            "scribe_key": "card_url",
+            "string_value": "https://t.co/5UBinY0rmY",
+            "type": "STRING"
+          }
+        },
+        {
+          "key": "summary_photo_image_original",
+          "value": {
+            "image_value": {
+              "height": 1080,
+              "url": "https://pbs.twimg.com/card_img/2034532112242540544/2caxuDyt?format=jpg&name=orig",
+              "width": 1920
+            },
+            "type": "IMAGE"
+          }
+        }
+      ],
+      "expanded_url": "https://www.cope.es/emisoras/illes-balears/baleares/mallorca/deportes-mallorca/noticias/necesaria-receta-debe-seguir-rcd-mallorca-elche-evitar-evitable-20260319_3329600.html",
+      "retweet_tweet_id": null,
+      "extended_entities": null,
+      "conversation_id": "2035018841240019158",
+      "retweet_status": null,
+      "quoted_status": null,
+      "bookmark_count": 0,
+      "source": "Twitter Web App",
+      "community_note": null
+    },
+    {
+      "tweet_id": "2035018265810940411",
+      "creation_date": "Fri Mar 20 15:38:58 +0000 2026",
+      "text": "🗣️ Un equipo fuerte y valiente \n\n📺 RdP completa: https://t.co/rpRZ2bualN\n\n#AlbaceteElche https://t.co/ONMqKEX9UF",
+      "media_url": ["https://pbs.twimg.com/media/HD3WU6CWMAAOpC-.jpg"],
+      "video_url": null,
+      "user": {
+        "creation_date": "Thu Dec 10 12:29:40 +0000 2015",
+        "user_id": "4437515668",
+        "username": "futbolbaseECF",
+        "name": "Fútbol Base Elche CF",
+        "follower_count": 7665,
+        "following_count": 68,
+        "favourites_count": 3121,
+        "is_private": false,
+        "is_verified": false,
+        "is_blue_verified": true,
+        "location": "Elche, Comunidad Valenciana",
+        "profile_pic_url": "https://pbs.twimg.com/profile_images/2014335968451428352/8y_FA_mU_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/4437515668/1752321544",
+        "description": "⚽️ Cuenta oficial del #Ilicitano y Fútbol Base del @elchecf 💚🤍 #CanteraECF",
+        "external_url": "https://www.elchecf.es/noticias-futbolbase",
+        "number_of_tweets": 18205,
+        "bot": false,
+        "timestamp": 1449750580,
+        "has_nft_avatar": false,
+        "category": null,
+        "default_profile": false,
+        "default_profile_image": false,
+        "listed_count": 87,
+        "verified_type": "Business"
+      },
+      "language": "es",
+      "favorite_count": 1,
+      "retweet_count": 0,
+      "reply_count": 0,
+      "quote_count": 0,
+      "retweet": false,
+      "views": 22,
+      "timestamp": 1774021138,
+      "video_view_count": null,
+      "in_reply_to_status_id": null,
+      "quoted_status_id": null,
+      "binding_values": null,
+      "expanded_url": "https://x.com/futbolbaseECF/status/2035018265810940411/photo/1",
+      "retweet_tweet_id": null,
+      "extended_entities": {
+        "media": [
+          {
+            "display_url": "pic.x.com/ONMqKEX9UF",
+            "expanded_url": "https://x.com/futbolbaseECF/status/2035018265810940411/photo/1",
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "features": {
+              "large": {
+                "faces": [
+                  {
+                    "h": 42,
+                    "w": 42,
+                    "x": 209,
+                    "y": 444
+                  },
+                  {
+                    "h": 172,
+                    "w": 172,
+                    "x": 671,
+                    "y": 769
+                  },
+                  {
+                    "h": 354,
+                    "w": 354,
+                    "x": 326,
+                    "y": 249
+                  }
+                ]
+              },
+              "medium": {
+                "faces": [
+                  {
+                    "h": 37,
+                    "w": 37,
+                    "x": 185,
+                    "y": 394
+                  },
+                  {
+                    "h": 152,
+                    "w": 152,
+                    "x": 596,
+                    "y": 683
+                  },
+                  {
+                    "h": 314,
+                    "w": 314,
+                    "x": 289,
+                    "y": 221
+                  }
+                ]
+              },
+              "orig": {
+                "faces": [
+                  {
+                    "h": 42,
+                    "w": 42,
+                    "x": 209,
+                    "y": 444
+                  },
+                  {
+                    "h": 172,
+                    "w": 172,
+                    "x": 671,
+                    "y": 769
+                  },
+                  {
+                    "h": 354,
+                    "w": 354,
+                    "x": 326,
+                    "y": 249
+                  }
+                ]
+              },
+              "small": {
+                "faces": [
+                  {
+                    "h": 21,
+                    "w": 21,
+                    "x": 105,
+                    "y": 223
+                  },
+                  {
+                    "h": 86,
+                    "w": 86,
+                    "x": 337,
+                    "y": 387
+                  },
+                  {
+                    "h": 178,
+                    "w": 178,
+                    "x": 164,
+                    "y": 125
+                  }
+                ]
+              }
+            },
+            "id_str": "2035018261306159104",
+            "indices": [89, 112],
+            "media_key": "3_2035018261306159104",
+            "media_url_https": "https://pbs.twimg.com/media/HD3WU6CWMAAOpC-.jpg",
+            "original_info": {
+              "focus_rects": [
+                {
+                  "h": 605,
+                  "w": 1080,
+                  "x": 0,
+                  "y": 745
+                },
+                {
+                  "h": 1080,
+                  "w": 1080,
+                  "x": 0,
+                  "y": 270
+                },
+                {
+                  "h": 1231,
+                  "w": 1080,
+                  "x": 0,
+                  "y": 119
+                },
+                {
+                  "h": 1350,
+                  "w": 675,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 1350,
+                  "w": 1080,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "height": 1350,
+              "width": 1080
+            },
+            "sizes": {
+              "large": {
+                "h": 1350,
+                "resize": "fit",
+                "w": 1080
+              },
+              "medium": {
+                "h": 1200,
+                "resize": "fit",
+                "w": 960
+              },
+              "small": {
+                "h": 680,
+                "resize": "fit",
+                "w": 544
+              },
+              "thumb": {
+                "h": 150,
+                "resize": "crop",
+                "w": 150
+              }
+            },
+            "type": "photo",
+            "url": "https://t.co/ONMqKEX9UF"
+          }
+        ]
+      },
+      "conversation_id": "2035018265810940411",
+      "retweet_status": null,
+      "quoted_status": null,
+      "bookmark_count": 0,
+      "source": "Twitter for iPhone",
+      "community_note": null
+    },
+    {
+      "tweet_id": "2035017207801913512",
+      "creation_date": "Fri Mar 20 15:34:45 +0000 2026",
+      "text": "@elchecf @DeportesCOPEelx Vamos coño",
+      "media_url": [],
+      "video_url": null,
+      "user": {
+        "creation_date": "Wed Jul 22 11:18:30 +0000 2020",
+        "user_id": "1285896853939269632",
+        "username": "glovobet",
+        "name": "TAMERLÁN DE ELCHE🌴",
+        "follower_count": 291,
+        "following_count": 504,
+        "favourites_count": 1418,
+        "is_private": false,
+        "is_verified": false,
+        "is_blue_verified": false,
+        "location": "Imperio Timurida",
+        "profile_pic_url": "https://pbs.twimg.com/profile_images/1831098609598713856/FteuzK0w_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/1285896853939269632/1746913359",
+        "description": "🔸1923-2023⚽🏆 \n🔸La verdad es seguridad 💚🌴 \n🔸 Elche-Samarcanda",
+        "external_url": "http://www.elchecf.es",
+        "number_of_tweets": 2981,
+        "bot": false,
+        "timestamp": 1595416710,
+        "has_nft_avatar": false,
+        "category": null,
+        "default_profile": true,
+        "default_profile_image": false,
+        "listed_count": 1,
+        "verified_type": null
+      },
+      "language": "es",
+      "favorite_count": 0,
+      "retweet_count": 0,
+      "reply_count": 0,
+      "quote_count": 0,
+      "retweet": false,
+      "views": 12,
+      "timestamp": 1774020885,
+      "video_view_count": null,
+      "in_reply_to_status_id": "2034980852493381870",
+      "quoted_status_id": null,
+      "binding_values": null,
+      "expanded_url": null,
+      "retweet_tweet_id": null,
+      "extended_entities": null,
+      "conversation_id": "2034980852493381870",
+      "retweet_status": null,
+      "quoted_status": null,
+      "bookmark_count": 0,
+      "source": "Twitter for Android",
+      "community_note": null
+    },
+    {
+      "tweet_id": "2035017142559527216",
+      "creation_date": "Fri Mar 20 15:34:30 +0000 2026",
+      "text": "@Evert_barsa @AntoLebron99 @Mario___RM Datos: victoria contra Celta, victoria contra City, victoria contra Elche, victoria contra City. ¿Quieres más datos?",
+      "media_url": [],
+      "video_url": null,
+      "user": {
+        "creation_date": "Tue May 13 14:39:06 +0000 2025",
+        "user_id": "1922300427917516800",
+        "username": "7elverdades",
+        "name": "El Verdades",
+        "follower_count": 4,
+        "following_count": 92,
+        "favourites_count": 926,
+        "is_private": false,
+        "is_verified": false,
+        "is_blue_verified": false,
+        "location": "",
+        "profile_pic_url": "https://pbs.twimg.com/profile_images/1922303904378671104/c_TKbS-2_normal.jpg",
+        "profile_banner_url": null,
+        "description": "",
+        "external_url": null,
+        "number_of_tweets": 1122,
+        "bot": false,
+        "timestamp": 1747147146,
+        "has_nft_avatar": false,
+        "category": null,
+        "default_profile": true,
+        "default_profile_image": false,
+        "listed_count": 1,
+        "verified_type": null
+      },
+      "language": "es",
+      "favorite_count": 0,
+      "retweet_count": 0,
+      "reply_count": 1,
+      "quote_count": 0,
+      "retweet": false,
+      "views": 15,
+      "timestamp": 1774020870,
+      "video_view_count": null,
+      "in_reply_to_status_id": "2035007123143184624",
+      "quoted_status_id": null,
+      "binding_values": null,
+      "expanded_url": null,
+      "retweet_tweet_id": null,
+      "extended_entities": null,
+      "conversation_id": "2034994162643218477",
+      "retweet_status": null,
+      "quoted_status": null,
+      "bookmark_count": 0,
+      "source": "Twitter for Android",
+      "community_note": null
+    },
+    {
+      "tweet_id": "2035016067899433265",
+      "creation_date": "Fri Mar 20 15:30:14 +0000 2026",
+      "text": "@KaitenNeo @Marcos_E_S @edatvoficial @vitoquiles Termino la conversación. He dejado muy clara mi postura. Si no quieres entenderlo, si no comprendes, no es mi problema. Tal vez seas como Vitico, que lo \"invitaron\" a marcharse de un Colegio privado de Elche por malas notas y pésima conducta. Entiendo que sea tu ejemplo.",
+      "media_url": [],
+      "video_url": null,
+      "user": {
+        "creation_date": "Wed Jun 21 12:04:09 +0000 2023",
+        "user_id": "1671489141920374788",
+        "username": "Anttonio_Perezz",
+        "name": "Anttonio_Perez",
+        "follower_count": 601,
+        "following_count": 420,
+        "favourites_count": 2447,
+        "is_private": false,
+        "is_verified": false,
+        "is_blue_verified": false,
+        "location": "",
+        "profile_pic_url": "https://pbs.twimg.com/profile_images/1822011620681187328/OK6OlsMI_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/1671489141920374788/1687349818",
+        "description": "Periodista, y de los que no se callan. \nMi canal: \"¡Esto es #Almería, saecio!\" TU CANAL.\nYoutube: https://t.co/mzyrHcbljl",
+        "external_url": "https://www.youtube.com/@estoesalmeriasaecio",
+        "number_of_tweets": 39508,
+        "bot": false,
+        "timestamp": 1687349049,
+        "has_nft_avatar": false,
+        "category": null,
+        "default_profile": true,
+        "default_profile_image": false,
+        "listed_count": 10,
+        "verified_type": null
+      },
+      "language": "es",
+      "favorite_count": 0,
+      "retweet_count": 0,
+      "reply_count": 1,
+      "quote_count": 0,
+      "retweet": false,
+      "views": 5,
+      "timestamp": 1774020614,
+      "video_view_count": null,
+      "in_reply_to_status_id": "2035015256922058872",
+      "quoted_status_id": null,
+      "binding_values": null,
+      "expanded_url": null,
+      "retweet_tweet_id": null,
+      "extended_entities": null,
+      "conversation_id": "2034971480656646154",
+      "retweet_status": null,
+      "quoted_status": null,
+      "bookmark_count": 0,
+      "source": "Twitter Web App",
+      "community_note": null
+    },
+    {
+      "tweet_id": "2035014991225426056",
+      "creation_date": "Fri Mar 20 15:25:57 +0000 2026",
+      "text": "🗣️ Estamos en un buen momento para llevarnos el partido\n\n📺 RdP completa: https://t.co/iyRSTlnjfo\n\n#IlicitanoFuenlabrada https://t.co/BIeMGUOIXT",
+      "media_url": ["https://pbs.twimg.com/media/HD3TWNRXMAAoLDB.jpg"],
+      "video_url": null,
+      "user": {
+        "creation_date": "Thu Dec 10 12:29:40 +0000 2015",
+        "user_id": "4437515668",
+        "username": "futbolbaseECF",
+        "name": "Fútbol Base Elche CF",
+        "follower_count": 7665,
+        "following_count": 68,
+        "favourites_count": 3121,
+        "is_private": false,
+        "is_verified": false,
+        "is_blue_verified": true,
+        "location": "Elche, Comunidad Valenciana",
+        "profile_pic_url": "https://pbs.twimg.com/profile_images/2014335968451428352/8y_FA_mU_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/4437515668/1752321544",
+        "description": "⚽️ Cuenta oficial del #Ilicitano y Fútbol Base del @elchecf 💚🤍 #CanteraECF",
+        "external_url": "https://www.elchecf.es/noticias-futbolbase",
+        "number_of_tweets": 18205,
+        "bot": false,
+        "timestamp": 1449750580,
+        "has_nft_avatar": false,
+        "category": null,
+        "default_profile": false,
+        "default_profile_image": false,
+        "listed_count": 87,
+        "verified_type": "Business"
+      },
+      "language": "es",
+      "favorite_count": 2,
+      "retweet_count": 0,
+      "reply_count": 0,
+      "quote_count": 0,
+      "retweet": false,
+      "views": 48,
+      "timestamp": 1774020357,
+      "video_view_count": null,
+      "in_reply_to_status_id": null,
+      "quoted_status_id": null,
+      "binding_values": null,
+      "expanded_url": "https://x.com/futbolbaseECF/status/2035014991225426056/photo/1",
+      "retweet_tweet_id": null,
+      "extended_entities": {
+        "media": [
+          {
+            "display_url": "pic.x.com/BIeMGUOIXT",
+            "expanded_url": "https://x.com/futbolbaseECF/status/2035014991225426056/photo/1",
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "features": {
+              "large": {
+                "faces": []
+              },
+              "medium": {
+                "faces": []
+              },
+              "orig": {
+                "faces": []
+              },
+              "small": {
+                "faces": []
+              }
+            },
+            "id_str": "2035014985114398720",
+            "indices": [120, 143],
+            "media_key": "3_2035014985114398720",
+            "media_url_https": "https://pbs.twimg.com/media/HD3TWNRXMAAoLDB.jpg",
+            "original_info": {
+              "focus_rects": [
+                {
+                  "h": 605,
+                  "w": 1080,
+                  "x": 0,
+                  "y": 745
+                },
+                {
+                  "h": 1080,
+                  "w": 1080,
+                  "x": 0,
+                  "y": 270
+                },
+                {
+                  "h": 1231,
+                  "w": 1080,
+                  "x": 0,
+                  "y": 119
+                },
+                {
+                  "h": 1350,
+                  "w": 675,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 1350,
+                  "w": 1080,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "height": 1350,
+              "width": 1080
+            },
+            "sizes": {
+              "large": {
+                "h": 1350,
+                "resize": "fit",
+                "w": 1080
+              },
+              "medium": {
+                "h": 1200,
+                "resize": "fit",
+                "w": 960
+              },
+              "small": {
+                "h": 680,
+                "resize": "fit",
+                "w": 544
+              },
+              "thumb": {
+                "h": 150,
+                "resize": "crop",
+                "w": 150
+              }
+            },
+            "type": "photo",
+            "url": "https://t.co/BIeMGUOIXT"
+          }
+        ]
+      },
+      "conversation_id": "2035014991225426056",
+      "retweet_status": null,
+      "quoted_status": null,
+      "bookmark_count": 0,
+      "source": "Twitter for iPhone",
+      "community_note": null
+    },
+    {
+      "tweet_id": "2035014645174456560",
+      "creation_date": "Fri Mar 20 15:24:34 +0000 2026",
+      "text": "Elche CF, espectacular salida de balon del filial que termina en gol https://t.co/TwFqrdmurC a través de @YouTube",
+      "media_url": [],
+      "video_url": null,
+      "user": {
+        "creation_date": "Fri Jun 08 16:41:30 +0000 2018",
+        "user_id": "1005127690192654336",
+        "username": "de_ojeador",
+        "name": "Ojeador de Fútbol",
+        "follower_count": 3826,
+        "following_count": 1434,
+        "favourites_count": 143781,
+        "is_private": false,
+        "is_verified": false,
+        "is_blue_verified": false,
+        "location": "Madrid, España",
+        "profile_pic_url": "https://pbs.twimg.com/profile_images/1492753380829237251/R8Q92b2A_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/1005127690192654336/1738763741",
+        "description": "Futbol de Portugal todas las ligas\nFutbol Español para Portugal\nFutbol Juvenil\nCromos de Futbol y futbol retro\nProyectos por privado",
+        "external_url": null,
+        "number_of_tweets": 18898,
+        "bot": false,
+        "timestamp": 1528476090,
+        "has_nft_avatar": false,
+        "category": null,
+        "default_profile": true,
+        "default_profile_image": false,
+        "listed_count": 28,
+        "verified_type": null
+      },
+      "language": "es",
+      "favorite_count": 0,
+      "retweet_count": 0,
+      "reply_count": 0,
+      "quote_count": 0,
+      "retweet": false,
+      "views": 49,
+      "timestamp": 1774020274,
+      "video_view_count": null,
+      "in_reply_to_status_id": null,
+      "quoted_status_id": null,
+      "binding_values": [
+        {
+          "key": "player_url",
+          "value": {
+            "string_value": "https://www.youtube.com/embed/mFZljpyUY1M",
+            "type": "STRING"
+          }
+        },
+        {
+          "key": "player_image_large",
+          "value": {
+            "image_value": {
+              "height": 627,
+              "url": "https://pbs.twimg.com/card_img/2035014654754238464/dBt2hEop?format=jpg&name=1200x627",
+              "width": 1200
+            },
+            "type": "IMAGE"
+          }
+        },
+        {
+          "key": "player_image",
+          "value": {
+            "image_value": {
+              "height": 210,
+              "url": "https://pbs.twimg.com/card_img/2035014654754238464/dBt2hEop?format=jpg&name=280x280",
+              "width": 280
+            },
+            "type": "IMAGE"
+          }
+        },
+        {
+          "key": "app_star_rating",
+          "value": {
+            "string_value": "4.67576",
+            "type": "STRING"
+          }
+        },
+        {
+          "key": "description",
+          "value": {
+            "string_value": "Espectacular salida de balon desde el portero a llegar a portería rival y terminar en gol",
+            "type": "STRING"
+          }
+        },
+        {
+          "key": "player_width",
+          "value": {
+            "string_value": "640",
+            "type": "STRING"
+          }
+        },
+        {
+          "key": "domain",
+          "value": {
+            "string_value": "www.youtube.com",
+            "type": "STRING"
+          }
+        },
+        {
+          "key": "app_is_free",
+          "value": {
+            "string_value": "true",
+            "type": "STRING"
+          }
+        },
+        {
+          "key": "site",
+          "value": {
+            "scribe_key": "publisher_id",
+            "type": "USER",
+            "user_value": {
+              "id_str": "10228272",
+              "path": []
+            }
+          }
+        },
+        {
+          "key": "player_image_original",
+          "value": {
+            "image_value": {
+              "height": 360,
+              "url": "https://pbs.twimg.com/card_img/2035014654754238464/dBt2hEop?format=jpg&name=orig",
+              "width": 480
+            },
+            "type": "IMAGE"
+          }
+        },
+        {
+          "key": "app_num_ratings",
+          "value": {
+            "string_value": "46,396,392",
+            "type": "STRING"
+          }
+        },
+        {
+          "key": "app_price_amount",
+          "value": {
+            "string_value": "0.0",
+            "type": "STRING"
+          }
+        },
+        {
+          "key": "player_height",
+          "value": {
+            "string_value": "360",
+            "type": "STRING"
+          }
+        },
+        {
+          "key": "vanity_url",
+          "value": {
+            "scribe_key": "vanity_url",
+            "string_value": "youtube.com",
+            "type": "STRING"
+          }
+        },
+        {
+          "key": "app_name",
+          "value": {
+            "string_value": "YouTube",
+            "type": "STRING"
+          }
+        },
+        {
+          "key": "player_image_small",
+          "value": {
+            "image_value": {
+              "height": 108,
+              "url": "https://pbs.twimg.com/card_img/2035014654754238464/dBt2hEop?format=jpg&name=144x144",
+              "width": 144
+            },
+            "type": "IMAGE"
+          }
+        },
+        {
+          "key": "title",
+          "value": {
+            "string_value": "Elche CF, espectacular salida de balon del filial que termina en gol",
+            "type": "STRING"
+          }
+        },
+        {
+          "key": "app_price_currency",
+          "value": {
+            "string_value": "USD",
+            "type": "STRING"
+          }
+        },
+        {
+          "key": "card_url",
+          "value": {
+            "scribe_key": "card_url",
+            "string_value": "https://t.co/TwFqrdmurC",
+            "type": "STRING"
+          }
+        },
+        {
+          "key": "player_image_color",
+          "value": {
+            "image_color_value": {
+              "palette": [
+                {
+                  "percentage": 31.38,
+                  "rgb": {
+                    "blue": 0,
+                    "green": 0,
+                    "red": 0
+                  }
+                },
+                {
+                  "percentage": 23.54,
+                  "rgb": {
+                    "blue": 94,
+                    "green": 140,
+                    "red": 117
+                  }
+                },
+                {
+                  "percentage": 17.02,
+                  "rgb": {
+                    "blue": 181,
+                    "green": 125,
+                    "red": 79
+                  }
+                },
+                {
+                  "percentage": 9.47,
+                  "rgb": {
+                    "blue": 147,
+                    "green": 156,
+                    "red": 176
+                  }
+                },
+                {
+                  "percentage": 7.39,
+                  "rgb": {
+                    "blue": 90,
+                    "green": 95,
+                    "red": 119
+                  }
+                }
+              ]
+            },
+            "type": "IMAGE_COLOR"
+          }
+        },
+        {
+          "key": "player_image_x_large",
+          "value": {
+            "image_value": {
+              "height": 360,
+              "url": "https://pbs.twimg.com/card_img/2035014654754238464/dBt2hEop?format=png&name=2048x2048_2_exp",
+              "width": 480
+            },
+            "type": "IMAGE"
+          }
+        }
+      ],
+      "expanded_url": "https://youtu.be/mFZljpyUY1M?si=9a0ncC0RpvTEmTwQ",
+      "retweet_tweet_id": null,
+      "extended_entities": null,
+      "conversation_id": "2035014645174456560",
+      "retweet_status": null,
+      "quoted_status": null,
+      "bookmark_count": 0,
+      "source": "Twitter Web App",
+      "community_note": null
+    },
+    {
+      "tweet_id": "2035014407101489539",
+      "creation_date": "Fri Mar 20 15:23:38 +0000 2026",
+      "text": "¿Se sabe a que hora sale el Mallorca hacia el aeropuerto para empezar el viaje hacia Elche?",
+      "media_url": [],
+      "video_url": null,
+      "user": {
+        "creation_date": "Sun Aug 17 18:33:44 +0000 2025",
+        "user_id": "1957148700511285248",
+        "username": "UniversoRCDM",
+        "name": "Universo Bermellón",
+        "follower_count": 237,
+        "following_count": 110,
+        "favourites_count": 1044,
+        "is_private": false,
+        "is_verified": false,
+        "is_blue_verified": false,
+        "location": "",
+        "profile_pic_url": "https://pbs.twimg.com/profile_images/1957150480024432640/wkeEWabt_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/1957148700511285248/1755456047",
+        "description": "Apasionado del RCD Mallorca. Cuenta de opinión, datos e información.",
+        "external_url": null,
+        "number_of_tweets": 585,
+        "bot": false,
+        "timestamp": 1755455624,
+        "has_nft_avatar": false,
+        "category": null,
+        "default_profile": true,
+        "default_profile_image": false,
+        "listed_count": 2,
+        "verified_type": null
+      },
+      "language": "es",
+      "favorite_count": 0,
+      "retweet_count": 0,
+      "reply_count": 0,
+      "quote_count": 0,
+      "retweet": false,
+      "views": 17,
+      "timestamp": 1774020218,
+      "video_view_count": null,
+      "in_reply_to_status_id": null,
+      "quoted_status_id": null,
+      "binding_values": null,
+      "expanded_url": null,
+      "retweet_tweet_id": null,
+      "extended_entities": null,
+      "conversation_id": "2035014407101489539",
+      "retweet_status": null,
+      "quoted_status": null,
+      "bookmark_count": 0,
+      "source": "Twitter Web App",
+      "community_note": null
+    },
+    {
+      "tweet_id": "2035014173575237710",
+      "creation_date": "Fri Mar 20 15:22:42 +0000 2026",
+      "text": "@Messias30_ Si a mi me dijeron q solo le hacía goles al Eibar y al Elche, como es posible esto?",
+      "media_url": [],
+      "video_url": null,
+      "user": {
+        "creation_date": "Wed Apr 27 01:59:17 +0000 2022",
+        "user_id": "1519133875900850177",
+        "username": "M0Lopez",
+        "name": "UBEDA ME VENDIÓ $LIBRA",
+        "follower_count": 86,
+        "following_count": 280,
+        "favourites_count": 8650,
+        "is_private": false,
+        "is_verified": false,
+        "is_blue_verified": false,
+        "location": "Banfield, Lomas de Zamora ",
+        "profile_pic_url": "https://pbs.twimg.com/profile_images/2026276564460040192/Y9WmDIzs_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/1519133875900850177/1768111369",
+        "description": "yo viví el Sifonazo, moriste en La Boca 9/11/2025 ⚰️\n(andate Ubeda la concha de tu madre)",
+        "external_url": null,
+        "number_of_tweets": 10079,
+        "bot": false,
+        "timestamp": 1651024757,
+        "has_nft_avatar": false,
+        "category": null,
+        "default_profile": true,
+        "default_profile_image": false,
+        "listed_count": 0,
+        "verified_type": null
+      },
+      "language": "es",
+      "favorite_count": 2,
+      "retweet_count": 0,
+      "reply_count": 0,
+      "quote_count": 0,
+      "retweet": false,
+      "views": 82,
+      "timestamp": 1774020162,
+      "video_view_count": null,
+      "in_reply_to_status_id": "2034998485880094934",
+      "quoted_status_id": null,
+      "binding_values": null,
+      "expanded_url": null,
+      "retweet_tweet_id": null,
+      "extended_entities": null,
+      "conversation_id": "2034998485880094934",
+      "retweet_status": null,
+      "quoted_status": null,
+      "bookmark_count": 0,
+      "source": "Twitter for Android",
+      "community_note": null
+    },
+    {
+      "tweet_id": "2035013657126391949",
+      "creation_date": "Fri Mar 20 15:20:39 +0000 2026",
+      "text": "Alberola Rojas dirigirá el Elche CF vs RCD Mallorca https://t.co/XkeL9Kg32B",
+      "media_url": ["https://pbs.twimg.com/media/HD3SIbIWwAA1WE2.jpg"],
+      "video_url": null,
+      "user": {
+        "creation_date": "Tue Dec 17 14:57:52 +0000 2019",
+        "user_id": "1206951550649819137",
+        "username": "iamperonaa",
+        "name": "Ismael",
+        "follower_count": 2044,
+        "following_count": 310,
+        "favourites_count": 6709,
+        "is_private": false,
+        "is_verified": false,
+        "is_blue_verified": false,
+        "location": "Elche, España",
+        "profile_pic_url": "https://pbs.twimg.com/profile_images/2032969770459353088/SsluEzWX_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/1206951550649819137/1773834023",
+        "description": "📰 Periodista | 👨🏼‍💻 @todo_alicante | @vocento",
+        "external_url": "https://www.todoalicante.es/elche-cf/",
+        "number_of_tweets": 9901,
+        "bot": false,
+        "timestamp": 1576594672,
+        "has_nft_avatar": false,
+        "category": null,
+        "default_profile": true,
+        "default_profile_image": false,
+        "listed_count": 18,
+        "verified_type": null
+      },
+      "language": "es",
+      "favorite_count": 2,
+      "retweet_count": 0,
+      "reply_count": 0,
+      "quote_count": 1,
+      "retweet": false,
+      "views": 136,
+      "timestamp": 1774020039,
+      "video_view_count": null,
+      "in_reply_to_status_id": null,
+      "quoted_status_id": null,
+      "binding_values": null,
+      "expanded_url": "https://x.com/iamperonaa/status/2035013657126391949/photo/1",
+      "retweet_tweet_id": null,
+      "extended_entities": {
+        "media": [
+          {
+            "display_url": "pic.x.com/XkeL9Kg32B",
+            "expanded_url": "https://x.com/iamperonaa/status/2035013657126391949/photo/1",
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "features": {
+              "large": {
+                "faces": [
+                  {
+                    "h": 74,
+                    "w": 74,
+                    "x": 373,
+                    "y": 1098
+                  },
+                  {
+                    "h": 155,
+                    "w": 155,
+                    "x": 27,
+                    "y": 350
+                  }
+                ]
+              },
+              "medium": {
+                "faces": [
+                  {
+                    "h": 73,
+                    "w": 73,
+                    "x": 369,
+                    "y": 1088
+                  },
+                  {
+                    "h": 153,
+                    "w": 153,
+                    "x": 26,
+                    "y": 347
+                  }
+                ]
+              },
+              "orig": {
+                "faces": [
+                  {
+                    "h": 74,
+                    "w": 74,
+                    "x": 373,
+                    "y": 1098
+                  },
+                  {
+                    "h": 155,
+                    "w": 155,
+                    "x": 27,
+                    "y": 350
+                  }
+                ]
+              },
+              "small": {
+                "faces": [
+                  {
+                    "h": 41,
+                    "w": 41,
+                    "x": 209,
+                    "y": 617
+                  },
+                  {
+                    "h": 87,
+                    "w": 87,
+                    "x": 15,
+                    "y": 196
+                  }
+                ]
+              }
+            },
+            "id_str": "2035013648804921344",
+            "indices": [52, 75],
+            "media_key": "3_2035013648804921344",
+            "media_url_https": "https://pbs.twimg.com/media/HD3SIbIWwAA1WE2.jpg",
+            "original_info": {
+              "focus_rects": [
+                {
+                  "h": 542,
+                  "w": 968,
+                  "x": 0,
+                  "y": 668
+                },
+                {
+                  "h": 968,
+                  "w": 968,
+                  "x": 0,
+                  "y": 242
+                },
+                {
+                  "h": 1104,
+                  "w": 968,
+                  "x": 0,
+                  "y": 106
+                },
+                {
+                  "h": 1210,
+                  "w": 605,
+                  "x": 91,
+                  "y": 0
+                },
+                {
+                  "h": 1210,
+                  "w": 968,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "height": 1210,
+              "width": 968
+            },
+            "sizes": {
+              "large": {
+                "h": 1210,
+                "resize": "fit",
+                "w": 968
+              },
+              "medium": {
+                "h": 1200,
+                "resize": "fit",
+                "w": 960
+              },
+              "small": {
+                "h": 680,
+                "resize": "fit",
+                "w": 544
+              },
+              "thumb": {
+                "h": 150,
+                "resize": "crop",
+                "w": 150
+              }
+            },
+            "type": "photo",
+            "url": "https://t.co/XkeL9Kg32B"
+          }
+        ]
+      },
+      "conversation_id": "2035013657126391949",
+      "retweet_status": null,
+      "quoted_status": null,
+      "bookmark_count": 0,
+      "source": "Twitter for iPhone",
+      "community_note": null
+    },
+    {
+      "tweet_id": "2035012294392861124",
+      "creation_date": "Fri Mar 20 15:15:14 +0000 2026",
+      "text": "¡Increíble partido! Diego Aguado se ha mostrado como una verdadera joya en el campo. 💎 Su actuación con el Real Madrid contra Elche en La Liga nos ha dejado a todos boquiabiertos. ¡Energía pura y talento desbordante! No se lo pierdan, este jugador tiene un futuro brillante. #RealMadrid #LaLiga #Fútbol #Aguado #TalentoFutbolístico\n\nhttps://t.co/Q2uXo1FDno",
+      "media_url": [],
+      "video_url": null,
+      "user": {
+        "creation_date": "Tue Nov 04 09:22:31 +0000 2025",
+        "user_id": "1985638746596003842",
+        "username": "MarcoRoFz1995",
+        "name": "Marco Rodriguez Fernandez",
+        "follower_count": 64,
+        "following_count": 206,
+        "favourites_count": 27,
+        "is_private": false,
+        "is_verified": false,
+        "is_blue_verified": true,
+        "location": "Madrid, España",
+        "profile_pic_url": "https://pbs.twimg.com/profile_images/1987897330566131712/aP4c3RAt_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/1985638746596003842/1763457372",
+        "description": "Analista de rendimiento | Estadística avanzada | Predicción aplicada al fútbol",
+        "external_url": null,
+        "number_of_tweets": 2511,
+        "bot": false,
+        "timestamp": 1762248151,
+        "has_nft_avatar": false,
+        "category": null,
+        "default_profile": true,
+        "default_profile_image": false,
+        "listed_count": 0,
+        "verified_type": null
+      },
+      "language": "es",
+      "favorite_count": 0,
+      "retweet_count": 0,
+      "reply_count": 0,
+      "quote_count": 0,
+      "retweet": false,
+      "views": 5,
+      "timestamp": 1774019714,
+      "video_view_count": null,
+      "in_reply_to_status_id": null,
+      "quoted_status_id": null,
+      "binding_values": [
+        {
+          "key": "player_url",
+          "value": {
+            "string_value": "https://www.youtube.com/embed/DjZTHhtQvAk",
+            "type": "STRING"
+          }
+        },
+        {
+          "key": "player_image_large",
+          "value": {
+            "image_value": {
+              "height": 320,
+              "url": "https://pbs.twimg.com/card_img/2035012297110798336/mSUEFDMK?format=jpg&name=800x320_1",
+              "width": 569
+            },
+            "type": "IMAGE"
+          }
+        },
+        {
+          "key": "player_image",
+          "value": {
+            "image_value": {
+              "height": 158,
+              "url": "https://pbs.twimg.com/card_img/2035012297110798336/mSUEFDMK?format=jpg&name=280x280",
+              "width": 280
+            },
+            "type": "IMAGE"
+          }
+        },
+        {
+          "key": "app_star_rating",
+          "value": {
+            "string_value": "4.67576",
+            "type": "STRING"
+          }
+        },
+        {
+          "key": "description",
+          "value": {
+            "string_value": "#RealMadridElche #laligaeasports #laligahighlights #laligahighlights",
+            "type": "STRING"
+          }
+        },
+        {
+          "key": "player_width",
+          "value": {
+            "string_value": "405",
+            "type": "STRING"
+          }
+        },
+        {
+          "key": "domain",
+          "value": {
+            "string_value": "www.youtube.com",
+            "type": "STRING"
+          }
+        },
+        {
+          "key": "app_is_free",
+          "value": {
+            "string_value": "true",
+            "type": "STRING"
+          }
+        },
+        {
+          "key": "site",
+          "value": {
+            "scribe_key": "publisher_id",
+            "type": "USER",
+            "user_value": {
+              "id_str": "10228272",
+              "path": []
+            }
+          }
+        },
+        {
+          "key": "player_image_original",
+          "value": {
+            "image_value": {
+              "height": 720,
+              "url": "https://pbs.twimg.com/card_img/2035012297110798336/mSUEFDMK?format=jpg&name=orig",
+              "width": 1280
+            },
+            "type": "IMAGE"
+          }
+        },
+        {
+          "key": "app_num_ratings",
+          "value": {
+            "string_value": "46,396,392",
+            "type": "STRING"
+          }
+        },
+        {
+          "key": "app_price_amount",
+          "value": {
+            "string_value": "0.0",
+            "type": "STRING"
+          }
+        },
+        {
+          "key": "player_height",
+          "value": {
+            "string_value": "720",
+            "type": "STRING"
+          }
+        },
+        {
+          "key": "vanity_url",
+          "value": {
+            "scribe_key": "vanity_url",
+            "string_value": "youtube.com",
+            "type": "STRING"
+          }
+        },
+        {
+          "key": "app_name",
+          "value": {
+            "string_value": "YouTube",
+            "type": "STRING"
+          }
+        },
+        {
+          "key": "player_image_small",
+          "value": {
+            "image_value": {
+              "height": 81,
+              "url": "https://pbs.twimg.com/card_img/2035012297110798336/mSUEFDMK?format=jpg&name=144x144",
+              "width": 144
+            },
+            "type": "IMAGE"
+          }
+        },
+        {
+          "key": "title",
+          "value": {
+            "string_value": "DIEGO AGUADO, una nueva joya. 🌟",
+            "type": "STRING"
+          }
+        },
+        {
+          "key": "app_price_currency",
+          "value": {
+            "string_value": "USD",
+            "type": "STRING"
+          }
+        },
+        {
+          "key": "card_url",
+          "value": {
+            "scribe_key": "card_url",
+            "string_value": "https://t.co/Q2uXo1FDno",
+            "type": "STRING"
+          }
+        },
+        {
+          "key": "player_image_color",
+          "value": {
+            "image_color_value": {
+              "palette": [
+                {
+                  "percentage": 82.8,
+                  "rgb": {
+                    "blue": 57,
+                    "green": 110,
+                    "red": 83
+                  }
+                },
+                {
+                  "percentage": 8.38,
+                  "rgb": {
+                    "blue": 69,
+                    "green": 57,
+                    "red": 64
+                  }
+                },
+                {
+                  "percentage": 4.19,
+                  "rgb": {
+                    "blue": 65,
+                    "green": 99,
+                    "red": 75
+                  }
+                },
+                {
+                  "percentage": 1.32,
+                  "rgb": {
+                    "blue": 116,
+                    "green": 65,
+                    "red": 44
+                  }
+                },
+                {
+                  "percentage": 0.74,
+                  "rgb": {
+                    "blue": 178,
+                    "green": 166,
+                    "red": 164
+                  }
+                }
+              ]
+            },
+            "type": "IMAGE_COLOR"
+          }
+        },
+        {
+          "key": "player_image_x_large",
+          "value": {
+            "image_value": {
+              "height": 720,
+              "url": "https://pbs.twimg.com/card_img/2035012297110798336/mSUEFDMK?format=png&name=2048x2048_2_exp",
+              "width": 1280
+            },
+            "type": "IMAGE"
+          }
+        }
+      ],
+      "expanded_url": null,
+      "retweet_tweet_id": null,
+      "extended_entities": null,
+      "conversation_id": "2035012294392861124",
+      "retweet_status": null,
+      "quoted_status": null,
+      "bookmark_count": 0,
+      "source": "Buffer",
+      "community_note": null
+    },
+    {
+      "tweet_id": "2035012280560107630",
+      "creation_date": "Fri Mar 20 15:15:11 +0000 2026",
+      "text": "El Arroz con Costra de Elche: el tesoro alicantino que destrona a la paella https://t.co/KmYUPjZkKU",
+      "media_url": [],
+      "video_url": null,
+      "user": {
+        "creation_date": "Wed Aug 31 13:11:28 +0000 2016",
+        "user_id": "770972273461239808",
+        "username": "merca2_es",
+        "name": "Merca2.es",
+        "follower_count": 8120,
+        "following_count": 364,
+        "favourites_count": 1262,
+        "is_private": false,
+        "is_verified": false,
+        "is_blue_verified": true,
+        "location": "redaccion@merca2.es",
+        "profile_pic_url": "https://pbs.twimg.com/profile_images/792131686196736000/NxluM5tn_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/770972273461239808/1594217964",
+        "description": "Diario de análisis y noticias sobre Empresas y Economía // @Moncloa_com para política e información nacional; y @QUEdiario para información general",
+        "external_url": "http://www.merca2.es",
+        "number_of_tweets": 90128,
+        "bot": false,
+        "timestamp": 1472649088,
+        "has_nft_avatar": false,
+        "category": null,
+        "default_profile": true,
+        "default_profile_image": false,
+        "listed_count": 150,
+        "verified_type": null
+      },
+      "language": "es",
+      "favorite_count": 0,
+      "retweet_count": 0,
+      "reply_count": 0,
+      "quote_count": 0,
+      "retweet": false,
+      "views": 19,
+      "timestamp": 1774019711,
+      "video_view_count": null,
+      "in_reply_to_status_id": null,
+      "quoted_status_id": null,
+      "binding_values": [
+        {
+          "key": "photo_image_full_size_large",
+          "value": {
+            "image_value": {
+              "height": 419,
+              "url": "https://pbs.twimg.com/card_img/2035012281482825729/nv7vtOFK?format=jpg&name=800x419",
+              "width": 800
+            },
+            "type": "IMAGE"
+          }
+        },
+        {
+          "key": "thumbnail_image",
+          "value": {
+            "image_value": {
+              "height": 150,
+              "url": "https://pbs.twimg.com/card_img/2035012281482825729/nv7vtOFK?format=jpg&name=280x150",
+              "width": 200
+            },
+            "type": "IMAGE"
+          }
+        },
+        {
+          "key": "description",
+          "value": {
+            "string_value": "La gastronomía levantina guarda un as bajo la manga que suele pasar desapercibido para el turista medio que busca desesperadamente un buen arroz con costra.",
+            "type": "STRING"
+          }
+        },
+        {
+          "key": "domain",
+          "value": {
+            "string_value": "www.merca2.es",
+            "type": "STRING"
+          }
+        },
+        {
+          "key": "thumbnail_image_large",
+          "value": {
+            "image_value": {
+              "height": 300,
+              "url": "https://pbs.twimg.com/card_img/2035012281482825729/nv7vtOFK?format=jpg&name=400x400",
+              "width": 400
+            },
+            "type": "IMAGE"
+          }
+        },
+        {
+          "key": "summary_photo_image_small",
+          "value": {
+            "image_value": {
+              "height": 202,
+              "url": "https://pbs.twimg.com/card_img/2035012281482825729/nv7vtOFK?format=jpg&name=386x202",
+              "width": 386
+            },
+            "type": "IMAGE"
+          }
+        },
+        {
+          "key": "thumbnail_image_original",
+          "value": {
+            "image_value": {
+              "height": 1125,
+              "url": "https://pbs.twimg.com/card_img/2035012281482825729/nv7vtOFK?format=jpg&name=orig",
+              "width": 1500
+            },
+            "type": "IMAGE"
+          }
+        },
+        {
+          "key": "site",
+          "value": {
+            "scribe_key": "publisher_id",
+            "type": "USER",
+            "user_value": {
+              "id_str": "770972273461239808",
+              "path": []
+            }
+          }
+        },
+        {
+          "key": "photo_image_full_size_small",
+          "value": {
+            "image_value": {
+              "height": 202,
+              "url": "https://pbs.twimg.com/card_img/2035012281482825729/nv7vtOFK?format=jpg&name=386x202",
+              "width": 386
+            },
+            "type": "IMAGE"
+          }
+        },
+        {
+          "key": "summary_photo_image_large",
+          "value": {
+            "image_value": {
+              "height": 419,
+              "url": "https://pbs.twimg.com/card_img/2035012281482825729/nv7vtOFK?format=jpg&name=800x419",
+              "width": 800
+            },
+            "type": "IMAGE"
+          }
+        },
+        {
+          "key": "thumbnail_image_small",
+          "value": {
+            "image_value": {
+              "height": 75,
+              "url": "https://pbs.twimg.com/card_img/2035012281482825729/nv7vtOFK?format=jpg&name=100x100",
+              "width": 100
+            },
+            "type": "IMAGE"
+          }
+        },
+        {
+          "key": "creator",
+          "value": {
+            "type": "USER",
+            "user_value": {
+              "id_str": "770972273461239808",
+              "path": []
+            }
+          }
+        },
+        {
+          "key": "thumbnail_image_x_large",
+          "value": {
+            "image_value": {
+              "height": 1125,
+              "url": "https://pbs.twimg.com/card_img/2035012281482825729/nv7vtOFK?format=png&name=2048x2048_2_exp",
+              "width": 1500
+            },
+            "type": "IMAGE"
+          }
+        },
+        {
+          "key": "photo_image_full_size_original",
+          "value": {
+            "image_value": {
+              "height": 1125,
+              "url": "https://pbs.twimg.com/card_img/2035012281482825729/nv7vtOFK?format=jpg&name=orig",
+              "width": 1500
+            },
+            "type": "IMAGE"
+          }
+        },
+        {
+          "key": "photo_image_full_size_alt_text",
+          "value": {
+            "string_value": "El Arroz con Costra de Elche: el tesoro alicantino que destrona a la paella",
+            "type": "STRING"
+          }
+        },
+        {
+          "key": "vanity_url",
+          "value": {
+            "scribe_key": "vanity_url",
+            "string_value": "merca2.es",
+            "type": "STRING"
+          }
+        },
+        {
+          "key": "photo_image_full_size",
+          "value": {
+            "image_value": {
+              "height": 314,
+              "url": "https://pbs.twimg.com/card_img/2035012281482825729/nv7vtOFK?format=jpg&name=600x314",
+              "width": 600
+            },
+            "type": "IMAGE"
+          }
+        },
+        {
+          "key": "summary_photo_image_alt_text",
+          "value": {
+            "string_value": "El Arroz con Costra de Elche: el tesoro alicantino que destrona a la paella",
+            "type": "STRING"
+          }
+        },
+        {
+          "key": "thumbnail_image_color",
+          "value": {
+            "image_color_value": {
+              "palette": [
+                {
+                  "percentage": 35.45,
+                  "rgb": {
+                    "blue": 44,
+                    "green": 143,
+                    "red": 199
+                  }
+                },
+                {
+                  "percentage": 20.86,
+                  "rgb": {
+                    "blue": 153,
+                    "green": 158,
+                    "red": 143
+                  }
+                },
+                {
+                  "percentage": 13.33,
+                  "rgb": {
+                    "blue": 16,
+                    "green": 26,
+                    "red": 34
+                  }
+                },
+                {
+                  "percentage": 10.88,
+                  "rgb": {
+                    "blue": 38,
+                    "green": 82,
+                    "red": 132
+                  }
+                },
+                {
+                  "percentage": 6.01,
+                  "rgb": {
+                    "blue": 20,
+                    "green": 99,
+                    "red": 172
+                  }
+                }
+              ]
+            },
+            "type": "IMAGE_COLOR"
+          }
+        },
+        {
+          "key": "title",
+          "value": {
+            "string_value": "El Arroz con Costra de Elche: el tesoro alicantino que destrona a la paella",
+            "type": "STRING"
+          }
+        },
+        {
+          "key": "summary_photo_image_color",
+          "value": {
+            "image_color_value": {
+              "palette": [
+                {
+                  "percentage": 35.45,
+                  "rgb": {
+                    "blue": 44,
+                    "green": 143,
+                    "red": 199
+                  }
+                },
+                {
+                  "percentage": 20.86,
+                  "rgb": {
+                    "blue": 153,
+                    "green": 158,
+                    "red": 143
+                  }
+                },
+                {
+                  "percentage": 13.33,
+                  "rgb": {
+                    "blue": 16,
+                    "green": 26,
+                    "red": 34
+                  }
+                },
+                {
+                  "percentage": 10.88,
+                  "rgb": {
+                    "blue": 38,
+                    "green": 82,
+                    "red": 132
+                  }
+                },
+                {
+                  "percentage": 6.01,
+                  "rgb": {
+                    "blue": 20,
+                    "green": 99,
+                    "red": 172
+                  }
+                }
+              ]
+            },
+            "type": "IMAGE_COLOR"
+          }
+        },
+        {
+          "key": "summary_photo_image_x_large",
+          "value": {
+            "image_value": {
+              "height": 1125,
+              "url": "https://pbs.twimg.com/card_img/2035012281482825729/nv7vtOFK?format=png&name=2048x2048_2_exp",
+              "width": 1500
+            },
+            "type": "IMAGE"
+          }
+        },
+        {
+          "key": "summary_photo_image",
+          "value": {
+            "image_value": {
+              "height": 314,
+              "url": "https://pbs.twimg.com/card_img/2035012281482825729/nv7vtOFK?format=jpg&name=600x314",
+              "width": 600
+            },
+            "type": "IMAGE"
+          }
+        },
+        {
+          "key": "photo_image_full_size_color",
+          "value": {
+            "image_color_value": {
+              "palette": [
+                {
+                  "percentage": 35.45,
+                  "rgb": {
+                    "blue": 44,
+                    "green": 143,
+                    "red": 199
+                  }
+                },
+                {
+                  "percentage": 20.86,
+                  "rgb": {
+                    "blue": 153,
+                    "green": 158,
+                    "red": 143
+                  }
+                },
+                {
+                  "percentage": 13.33,
+                  "rgb": {
+                    "blue": 16,
+                    "green": 26,
+                    "red": 34
+                  }
+                },
+                {
+                  "percentage": 10.88,
+                  "rgb": {
+                    "blue": 38,
+                    "green": 82,
+                    "red": 132
+                  }
+                },
+                {
+                  "percentage": 6.01,
+                  "rgb": {
+                    "blue": 20,
+                    "green": 99,
+                    "red": 172
+                  }
+                }
+              ]
+            },
+            "type": "IMAGE_COLOR"
+          }
+        },
+        {
+          "key": "photo_image_full_size_x_large",
+          "value": {
+            "image_value": {
+              "height": 1125,
+              "url": "https://pbs.twimg.com/card_img/2035012281482825729/nv7vtOFK?format=png&name=2048x2048_2_exp",
+              "width": 1500
+            },
+            "type": "IMAGE"
+          }
+        },
+        {
+          "key": "card_url",
+          "value": {
+            "scribe_key": "card_url",
+            "string_value": "https://t.co/KmYUPjZkKU",
+            "type": "STRING"
+          }
+        },
+        {
+          "key": "summary_photo_image_original",
+          "value": {
+            "image_value": {
+              "height": 1125,
+              "url": "https://pbs.twimg.com/card_img/2035012281482825729/nv7vtOFK?format=jpg&name=orig",
+              "width": 1500
+            },
+            "type": "IMAGE"
+          }
+        }
+      ],
+      "expanded_url": "https://ift.tt/ZVILqCv",
+      "retweet_tweet_id": null,
+      "extended_entities": null,
+      "conversation_id": "2035012280560107630",
+      "retweet_status": null,
+      "quoted_status": null,
+      "bookmark_count": 0,
+      "source": "IFTTT",
+      "community_note": null
+    },
+    {
+      "tweet_id": "2035011382668595213",
+      "creation_date": "Fri Mar 20 15:11:36 +0000 2026",
+      "text": "🎬 ¡Valencia se prepara para brillar en el cine! Del 17 al 19 de junio, el Promercat 2026 será el epicentro de la coproducción audiovisual. ¡No pierdas la oportunidad de conectar con grandes proyectos! Inscríbete hasta el 17 de abril. 🎥✨... https://t.co/sNZUzuLwqx https://t.co/ObFTjFJzkg",
+      "media_url": ["https://pbs.twimg.com/media/HD3QDfDXAAEdYYV.jpg"],
+      "video_url": null,
+      "user": {
+        "creation_date": "Thu May 25 08:50:08 +0000 2023",
+        "user_id": "1661655830498881536",
+        "username": "ElcheEdOn",
+        "name": "Noticias Elche",
+        "follower_count": 34,
+        "following_count": 34,
+        "favourites_count": 5,
+        "is_private": false,
+        "is_verified": false,
+        "is_blue_verified": false,
+        "location": "Elche",
+        "profile_pic_url": "https://pbs.twimg.com/profile_images/1661655931686383617/WozeHWh8_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/1661655830498881536/1685004743",
+        "description": "Todas las noticias de Elche y alrededores a diario",
+        "external_url": "http://noticiaselche.com/",
+        "number_of_tweets": 4965,
+        "bot": false,
+        "timestamp": 1685004608,
+        "has_nft_avatar": false,
+        "category": null,
+        "default_profile": true,
+        "default_profile_image": false,
+        "listed_count": 0,
+        "verified_type": null
+      },
+      "language": "es",
+      "favorite_count": 0,
+      "retweet_count": 0,
+      "reply_count": 0,
+      "quote_count": 0,
+      "retweet": false,
+      "views": 3,
+      "timestamp": 1774019496,
+      "video_view_count": null,
+      "in_reply_to_status_id": null,
+      "quoted_status_id": null,
+      "binding_values": null,
+      "expanded_url": "https://x.com/ElcheEdOn/status/2035011382668595213/photo/1",
+      "retweet_tweet_id": null,
+      "extended_entities": {
+        "media": [
+          {
+            "display_url": "pic.x.com/ObFTjFJzkg",
+            "expanded_url": "https://x.com/ElcheEdOn/status/2035011382668595213/photo/1",
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "features": {
+              "large": {
+                "faces": []
+              },
+              "medium": {
+                "faces": []
+              },
+              "orig": {
+                "faces": []
+              },
+              "small": {
+                "faces": []
+              }
+            },
+            "id_str": "2035011364935106561",
+            "indices": [264, 287],
+            "media_key": "3_2035011364935106561",
+            "media_url_https": "https://pbs.twimg.com/media/HD3QDfDXAAEdYYV.jpg",
+            "original_info": {
+              "focus_rects": [
+                {
+                  "h": 448,
+                  "w": 800,
+                  "x": 0,
+                  "y": 552
+                },
+                {
+                  "h": 800,
+                  "w": 800,
+                  "x": 0,
+                  "y": 200
+                },
+                {
+                  "h": 912,
+                  "w": 800,
+                  "x": 0,
+                  "y": 88
+                },
+                {
+                  "h": 1000,
+                  "w": 500,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 1000,
+                  "w": 800,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "height": 1000,
+              "width": 800
+            },
+            "sizes": {
+              "large": {
+                "h": 1000,
+                "resize": "fit",
+                "w": 800
+              },
+              "medium": {
+                "h": 1000,
+                "resize": "fit",
+                "w": 800
+              },
+              "small": {
+                "h": 680,
+                "resize": "fit",
+                "w": 544
+              },
+              "thumb": {
+                "h": 150,
+                "resize": "crop",
+                "w": 150
+              }
+            },
+            "type": "photo",
+            "url": "https://t.co/ObFTjFJzkg"
+          }
+        ]
+      },
+      "conversation_id": "2035011382668595213",
+      "retweet_status": null,
+      "quoted_status": null,
+      "bookmark_count": 0,
+      "source": "Marfeel Amplify",
+      "community_note": null
+    },
+    {
+      "tweet_id": "2035010604893696511",
+      "creation_date": "Fri Mar 20 15:08:31 +0000 2026",
+      "text": "Elche en días de lluvia. https://t.co/PxYWroNjL8",
+      "media_url": ["https://pbs.twimg.com/media/HD3PPx3boAIkEe6.jpg"],
+      "video_url": null,
+      "user": {
+        "creation_date": "Wed Aug 20 17:29:10 +0000 2014",
+        "user_id": "2749767727",
+        "username": "juanmaadventur",
+        "name": "Juanmaadventures 📸🌍🚵 🥾",
+        "follower_count": 5451,
+        "following_count": 138,
+        "favourites_count": 6160,
+        "is_private": false,
+        "is_verified": false,
+        "is_blue_verified": false,
+        "location": "",
+        "profile_pic_url": "https://pbs.twimg.com/profile_images/1696533192168382464/8gRf_KUG_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/2749767727/1693320286",
+        "description": "Fotografías y vídeos de mis aventuras.\nInstagram: Juanmaadventures \nTiktok: Juanmaadventur\nWikiloc: Juanmaadventures",
+        "external_url": "https://youtube.com/@Breik05Gamer?si=45jIKzuvbg5l_rAv",
+        "number_of_tweets": 8842,
+        "bot": false,
+        "timestamp": 1408555750,
+        "has_nft_avatar": false,
+        "category": null,
+        "default_profile": false,
+        "default_profile_image": false,
+        "listed_count": 23,
+        "verified_type": null
+      },
+      "language": "es",
+      "favorite_count": 1,
+      "retweet_count": 0,
+      "reply_count": 0,
+      "quote_count": 0,
+      "retweet": false,
+      "views": 11,
+      "timestamp": 1774019311,
+      "video_view_count": null,
+      "in_reply_to_status_id": null,
+      "quoted_status_id": null,
+      "binding_values": null,
+      "expanded_url": "https://x.com/juanmaadventur/status/2035010604893696511/photo/1",
+      "retweet_tweet_id": null,
+      "extended_entities": {
+        "media": [
+          {
+            "display_url": "pic.x.com/PxYWroNjL8",
+            "expanded_url": "https://x.com/juanmaadventur/status/2035010604893696511/photo/1",
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "features": {
+              "large": {
+                "faces": []
+              },
+              "medium": {
+                "faces": []
+              },
+              "orig": {
+                "faces": []
+              },
+              "small": {
+                "faces": []
+              }
+            },
+            "id_str": "2035010476632154114",
+            "indices": [25, 48],
+            "media_key": "3_2035010476632154114",
+            "media_url_https": "https://pbs.twimg.com/media/HD3PPx3boAIkEe6.jpg",
+            "original_info": {
+              "focus_rects": [
+                {
+                  "h": 1452,
+                  "w": 2592,
+                  "x": 0,
+                  "y": 634
+                },
+                {
+                  "h": 2592,
+                  "w": 2592,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 2592,
+                  "w": 2274,
+                  "x": 318,
+                  "y": 0
+                },
+                {
+                  "h": 2592,
+                  "w": 1296,
+                  "x": 1296,
+                  "y": 0
+                },
+                {
+                  "h": 2592,
+                  "w": 2592,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "height": 2592,
+              "width": 2592
+            },
+            "sizes": {
+              "large": {
+                "h": 2048,
+                "resize": "fit",
+                "w": 2048
+              },
+              "medium": {
+                "h": 1200,
+                "resize": "fit",
+                "w": 1200
+              },
+              "small": {
+                "h": 680,
+                "resize": "fit",
+                "w": 680
+              },
+              "thumb": {
+                "h": 150,
+                "resize": "crop",
+                "w": 150
+              }
+            },
+            "type": "photo",
+            "url": "https://t.co/PxYWroNjL8"
+          }
+        ]
+      },
+      "conversation_id": "2035010604893696511",
+      "retweet_status": null,
+      "quoted_status": null,
+      "bookmark_count": 0,
+      "source": "Twitter Web App",
+      "community_note": null
+    },
+    {
+      "tweet_id": "2035010406675046404",
+      "creation_date": "Fri Mar 20 15:07:44 +0000 2026",
+      "text": "@mohamme18092032 @HammouchYo79157 @IlyasBT_ @FRMFXtra Ah ana an3tek alvaro dial elche",
+      "media_url": [],
+      "video_url": null,
+      "user": {
+        "creation_date": "Fri Jan 13 12:33:52 +0000 2023",
+        "user_id": "1613876913591779329",
+        "username": "ilyassraphi1",
+        "name": "Ilyassraphi",
+        "follower_count": 323,
+        "following_count": 104,
+        "favourites_count": 18410,
+        "is_private": false,
+        "is_verified": false,
+        "is_blue_verified": false,
+        "location": "",
+        "profile_pic_url": "https://pbs.twimg.com/profile_images/1951239122514800642/7zyO6sSE_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/1613876913591779329/1734227616",
+        "description": "Ser del Barça és el millor que hi ha",
+        "external_url": null,
+        "number_of_tweets": 14474,
+        "bot": false,
+        "timestamp": 1673613232,
+        "has_nft_avatar": false,
+        "category": null,
+        "default_profile": true,
+        "default_profile_image": false,
+        "listed_count": 3,
+        "verified_type": null
+      },
+      "language": "es",
+      "favorite_count": 1,
+      "retweet_count": 0,
+      "reply_count": 1,
+      "quote_count": 0,
+      "retweet": false,
+      "views": 25,
+      "timestamp": 1774019264,
+      "video_view_count": null,
+      "in_reply_to_status_id": "2035008654420607419",
+      "quoted_status_id": null,
+      "binding_values": null,
+      "expanded_url": null,
+      "retweet_tweet_id": null,
+      "extended_entities": null,
+      "conversation_id": "2034987777851273701",
+      "retweet_status": null,
+      "quoted_status": null,
+      "bookmark_count": 0,
+      "source": "Twitter for iPhone",
+      "community_note": null
+    },
+    {
+      "tweet_id": "2035009920186175861",
+      "creation_date": "Fri Mar 20 15:05:48 +0000 2026",
+      "text": "En la previa del #Levante - #Oviedo, entre otras cuestiones, Almada no descartaba formar con 3 centrales en algunos partidos si es necesario.\n\nAdemás, aparte del choque ante los granotas, reconoce como claves las citas ante #Sevilla, #Elche, #Alavés y #Mallorca.\n\n#LALIGAEASPORTS https://t.co/0DkaTdqWNh",
+      "media_url": [
+        "https://pbs.twimg.com/amplify_video_thumb/2035009834345799683/img/5XbmzDcsBG0Qx4jC.jpg"
+      ],
+      "video_url": [
+        {
+          "content_type": "application/x-mpegURL",
+          "url": "https://video.twimg.com/amplify_video/2035009834345799683/pl/yZNz2XFeoY-9X77t.m3u8?tag=14"
+        },
+        {
+          "bitrate": 288000,
+          "content_type": "video/mp4",
+          "url": "https://video.twimg.com/amplify_video/2035009834345799683/vid/avc1/480x270/zEfpfcqpf52TV01q.mp4?tag=14"
+        },
+        {
+          "bitrate": 832000,
+          "content_type": "video/mp4",
+          "url": "https://video.twimg.com/amplify_video/2035009834345799683/vid/avc1/640x360/cCULJ57flbr7cwuZ.mp4?tag=14"
+        },
+        {
+          "bitrate": 2176000,
+          "content_type": "video/mp4",
+          "url": "https://video.twimg.com/amplify_video/2035009834345799683/vid/avc1/1280x720/sr-bXWOtlOqYdrKC.mp4?tag=14"
+        }
+      ],
+      "user": {
+        "creation_date": "Sat May 15 15:41:42 +0000 2021",
+        "user_id": "1393592385498669056",
+        "username": "FranOliva1993",
+        "name": "Fran Oliva",
+        "follower_count": 1498,
+        "following_count": 1446,
+        "favourites_count": 7797,
+        "is_private": false,
+        "is_verified": false,
+        "is_blue_verified": false,
+        "location": "Oviedo / Huelva",
+        "profile_pic_url": "https://pbs.twimg.com/profile_images/2022383995263315968/jQQkhhn0_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/1393592385498669056/1767224511",
+        "description": "📍 Onubense en Oviedo 🎤🎙️ Periodista en @RTVEAsturias 📺 📻 📧 Olivaperezfranciscojose@gmail.com",
+        "external_url": "https://www.facebook.com/franciscojose.olivaperez",
+        "number_of_tweets": 16993,
+        "bot": false,
+        "timestamp": 1621093302,
+        "has_nft_avatar": false,
+        "category": null,
+        "default_profile": true,
+        "default_profile_image": false,
+        "listed_count": 6,
+        "verified_type": null
+      },
+      "language": "es",
+      "favorite_count": 0,
+      "retweet_count": 0,
+      "reply_count": 0,
+      "quote_count": 0,
+      "retweet": false,
+      "views": 59,
+      "timestamp": 1774019148,
+      "video_view_count": null,
+      "in_reply_to_status_id": null,
+      "quoted_status_id": null,
+      "binding_values": null,
+      "expanded_url": "https://x.com/FranOliva1993/status/2035009920186175861/video/1",
+      "retweet_tweet_id": null,
+      "extended_entities": {
+        "media": [
+          {
+            "additional_media_info": {
+              "monetizable": false
+            },
+            "display_url": "pic.x.com/0DkaTdqWNh",
+            "expanded_url": "https://x.com/FranOliva1993/status/2035009920186175861/video/1",
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "id_str": "2035009834345799683",
+            "indices": [280, 303],
+            "media_key": "13_2035009834345799683",
+            "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2035009834345799683/img/5XbmzDcsBG0Qx4jC.jpg",
+            "original_info": {
+              "focus_rects": [],
+              "height": 720,
+              "width": 1280
+            },
+            "sizes": {
+              "large": {
+                "h": 720,
+                "resize": "fit",
+                "w": 1280
+              },
+              "medium": {
+                "h": 675,
+                "resize": "fit",
+                "w": 1200
+              },
+              "small": {
+                "h": 383,
+                "resize": "fit",
+                "w": 680
+              },
+              "thumb": {
+                "h": 150,
+                "resize": "crop",
+                "w": 150
+              }
+            },
+            "type": "video",
+            "url": "https://t.co/0DkaTdqWNh",
+            "video_info": {
+              "aspect_ratio": [16, 9],
+              "duration_millis": 160800,
+              "variants": [
+                {
+                  "content_type": "application/x-mpegURL",
+                  "url": "https://video.twimg.com/amplify_video/2035009834345799683/pl/yZNz2XFeoY-9X77t.m3u8?tag=14"
+                },
+                {
+                  "bitrate": 288000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/amplify_video/2035009834345799683/vid/avc1/480x270/zEfpfcqpf52TV01q.mp4?tag=14"
+                },
+                {
+                  "bitrate": 832000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/amplify_video/2035009834345799683/vid/avc1/640x360/cCULJ57flbr7cwuZ.mp4?tag=14"
+                },
+                {
+                  "bitrate": 2176000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/amplify_video/2035009834345799683/vid/avc1/1280x720/sr-bXWOtlOqYdrKC.mp4?tag=14"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "conversation_id": "2035009920186175861",
+      "retweet_status": null,
+      "quoted_status": null,
+      "bookmark_count": 0,
+      "source": "Twitter Web App",
+      "community_note": null
+    },
+    {
+      "tweet_id": "2035009430891249748",
+      "creation_date": "Fri Mar 20 15:03:51 +0000 2026",
+      "text": "@PresoDelRayo No creo, hay casi una semana entre Elche y AEK. Donde seguro juegan los suplentes es en Mallorca, esto sí que es un problema.",
+      "media_url": [],
+      "video_url": null,
+      "user": {
+        "creation_date": "Fri May 18 16:58:13 +0000 2012",
+        "user_id": "583981582",
+        "username": "mojitoergorum",
+        "name": "Manucho, ergo rum.",
+        "follower_count": 243,
+        "following_count": 488,
+        "favourites_count": 2779,
+        "is_private": false,
+        "is_verified": false,
+        "is_blue_verified": false,
+        "location": "Schöner Moment",
+        "profile_pic_url": "https://pbs.twimg.com/profile_images/1661286641523204098/KAJDeeRS_normal.jpg",
+        "profile_banner_url": null,
+        "description": "Sykler, bicicleta en noruego. Intento pensar diferente pero a veces no me sale",
+        "external_url": null,
+        "number_of_tweets": 12682,
+        "bot": false,
+        "timestamp": 1337360293,
+        "has_nft_avatar": false,
+        "category": null,
+        "default_profile": false,
+        "default_profile_image": false,
+        "listed_count": 9,
+        "verified_type": null
+      },
+      "language": "es",
+      "favorite_count": 0,
+      "retweet_count": 0,
+      "reply_count": 0,
+      "quote_count": 0,
+      "retweet": false,
+      "views": 9,
+      "timestamp": 1774019031,
+      "video_view_count": null,
+      "in_reply_to_status_id": "2034934239867584700",
+      "quoted_status_id": null,
+      "binding_values": null,
+      "expanded_url": null,
+      "retweet_tweet_id": null,
+      "extended_entities": null,
+      "conversation_id": "2034934239867584700",
+      "retweet_status": null,
+      "quoted_status": null,
+      "bookmark_count": 0,
+      "source": "Twitter for Android",
+      "community_note": null
+    },
+    {
+      "tweet_id": "2035008118757666949",
+      "creation_date": "Fri Mar 20 14:58:38 +0000 2026",
+      "text": "@AxeelFCB Madrid jugo contra city-elche-city miércoles-sabado-martes, lo mismo le pasará al Barca y a cualquier equipo que le toque la eliminatoria corta (miercoles-martes) que es un despropósito de UEFA.",
+      "media_url": [],
+      "video_url": null,
+      "user": {
+        "creation_date": "Thu Dec 09 00:53:28 +0000 2021",
+        "user_id": "1468745486454693892",
+        "username": "donnet_diego",
+        "name": "Diego Donnet",
+        "follower_count": 11,
+        "following_count": 16,
+        "favourites_count": 6705,
+        "is_private": false,
+        "is_verified": false,
+        "is_blue_verified": false,
+        "location": "",
+        "profile_pic_url": "https://pbs.twimg.com/profile_images/1468745577160753154/Rf0TX0eY_normal.png",
+        "profile_banner_url": null,
+        "description": "",
+        "external_url": null,
+        "number_of_tweets": 1603,
+        "bot": false,
+        "timestamp": 1639011208,
+        "has_nft_avatar": false,
+        "category": null,
+        "default_profile": true,
+        "default_profile_image": false,
+        "listed_count": 0,
+        "verified_type": null
+      },
+      "language": "es",
+      "favorite_count": 0,
+      "retweet_count": 0,
+      "reply_count": 0,
+      "quote_count": 0,
+      "retweet": false,
+      "views": 51,
+      "timestamp": 1774018718,
+      "video_view_count": null,
+      "in_reply_to_status_id": "2034956348031393979",
+      "quoted_status_id": null,
+      "binding_values": null,
+      "expanded_url": null,
+      "retweet_tweet_id": null,
+      "extended_entities": null,
+      "conversation_id": "2034956348031393979",
+      "retweet_status": null,
+      "quoted_status": null,
+      "bookmark_count": 0,
+      "source": "Twitter for Android",
+      "community_note": null
+    },
+    {
+      "tweet_id": "2035007825663918335",
+      "creation_date": "Fri Mar 20 14:57:28 +0000 2026",
+      "text": "DYA, adjudicataria del transporte sanitario de instalaciones deportivas y eventos públicos de Elche.\nSe contempla además la puesta en marcha de un punto sanitario fijo en la Ciudad Deportiva, inoperativo desde el año 2017\n---------------------------------\nhttps://t.co/iiEe66dE51 https://t.co/BaMck2rAA7",
+      "media_url": ["https://pbs.twimg.com/media/HD3Mo4OXcAA0U8X.jpg"],
+      "video_url": null,
+      "user": {
+        "creation_date": "Fri Nov 20 11:38:59 +0000 2015",
+        "user_id": "4234221820",
+        "username": "GalizAmbulancia",
+        "name": "GALICIAMBULANCIA",
+        "follower_count": 2711,
+        "following_count": 1411,
+        "favourites_count": 116576,
+        "is_private": false,
+        "is_verified": false,
+        "is_blue_verified": false,
+        "location": "A Coruña, Galicia",
+        "profile_pic_url": "https://pbs.twimg.com/profile_images/1369515363650723843/DN2FKH5C_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/4234221820/1686305770",
+        "description": "Apoyando a todos los compañeros que MIRAN POR LA GENTE DE ESTE PAIS. Incluso arriesgando sus vidas. MUCHAS VECES OLVIDADOS, HASTA QUE NOS NECESITAN. !!",
+        "external_url": null,
+        "number_of_tweets": 75201,
+        "bot": false,
+        "timestamp": 1448019539,
+        "has_nft_avatar": false,
+        "category": null,
+        "default_profile": false,
+        "default_profile_image": false,
+        "listed_count": 35,
+        "verified_type": null
+      },
+      "language": "es",
+      "favorite_count": 0,
+      "retweet_count": 0,
+      "reply_count": 0,
+      "quote_count": 0,
+      "retweet": false,
+      "views": 11,
+      "timestamp": 1774018648,
+      "video_view_count": null,
+      "in_reply_to_status_id": null,
+      "quoted_status_id": null,
+      "binding_values": null,
+      "expanded_url": "https://x.com/GalizAmbulancia/status/2035007825663918335/photo/1",
+      "retweet_tweet_id": null,
+      "extended_entities": {
+        "media": [
+          {
+            "display_url": "pic.x.com/BaMck2rAA7",
+            "expanded_url": "https://x.com/GalizAmbulancia/status/2035007825663918335/photo/1",
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "features": {
+              "large": {
+                "faces": []
+              },
+              "medium": {
+                "faces": []
+              },
+              "orig": {
+                "faces": []
+              },
+              "small": {
+                "faces": []
+              }
+            },
+            "id_str": "2035007609300807680",
+            "indices": [280, 303],
+            "media_key": "3_2035007609300807680",
+            "media_url_https": "https://pbs.twimg.com/media/HD3Mo4OXcAA0U8X.jpg",
+            "original_info": {
+              "focus_rects": [
+                {
+                  "h": 454,
+                  "w": 811,
+                  "x": 70,
+                  "y": 0
+                },
+                {
+                  "h": 454,
+                  "w": 454,
+                  "x": 248,
+                  "y": 0
+                },
+                {
+                  "h": 454,
+                  "w": 398,
+                  "x": 276,
+                  "y": 0
+                },
+                {
+                  "h": 454,
+                  "w": 227,
+                  "x": 362,
+                  "y": 0
+                },
+                {
+                  "h": 454,
+                  "w": 1000,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "height": 454,
+              "width": 1000
+            },
+            "sizes": {
+              "large": {
+                "h": 454,
+                "resize": "fit",
+                "w": 1000
+              },
+              "medium": {
+                "h": 454,
+                "resize": "fit",
+                "w": 1000
+              },
+              "small": {
+                "h": 309,
+                "resize": "fit",
+                "w": 680
+              },
+              "thumb": {
+                "h": 150,
+                "resize": "crop",
+                "w": 150
+              }
+            },
+            "type": "photo",
+            "url": "https://t.co/BaMck2rAA7"
+          }
+        ]
+      },
+      "conversation_id": "2035007825663918335",
+      "retweet_status": null,
+      "quoted_status": null,
+      "bookmark_count": 0,
+      "source": "Twitter Web App",
+      "community_note": null
+    },
+    {
+      "tweet_id": "2035007635997544780",
+      "creation_date": "Fri Mar 20 14:56:43 +0000 2026",
+      "text": "La complejidad del ser humano en un libro presentado en Elche https://t.co/tz1lTlbblk",
+      "media_url": [],
+      "video_url": null,
+      "user": {
+        "creation_date": "Mon Nov 23 12:09:58 +0000 2009",
+        "user_id": "92002486",
+        "username": "informacion_es",
+        "name": "INFORMACION.es",
+        "follower_count": 168843,
+        "following_count": 953,
+        "favourites_count": 28694,
+        "is_private": false,
+        "is_verified": false,
+        "is_blue_verified": false,
+        "location": "Alicante, España",
+        "profile_pic_url": "https://pbs.twimg.com/profile_images/1542070763854905349/fQRVdbko_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/92002486/1558103865",
+        "description": "Toda la actualidad de Alicante.\n💻 FB https://t.co/kYVjTPpZiW\n📷 Instagram https://t.co/nqdRpimH2G \n📱 WhatsApp https://t.co/HggA7YMULp",
+        "external_url": "http://w.informacion.es/9zpbv",
+        "number_of_tweets": 343852,
+        "bot": false,
+        "timestamp": 1258978198,
+        "has_nft_avatar": false,
+        "category": null,
+        "default_profile": true,
+        "default_profile_image": false,
+        "listed_count": 1223,
+        "verified_type": null
+      },
+      "language": "es",
+      "favorite_count": 0,
+      "retweet_count": 0,
+      "reply_count": 0,
+      "quote_count": 0,
+      "retweet": false,
+      "views": 105,
+      "timestamp": 1774018603,
+      "video_view_count": null,
+      "in_reply_to_status_id": null,
+      "quoted_status_id": null,
+      "binding_values": [
+        {
+          "key": "photo_image_full_size_large",
+          "value": {
+            "image_value": {
+              "height": 419,
+              "url": "https://pbs.twimg.com/card_img/2035007639453646848/W5-poINK?format=jpg&name=800x419",
+              "width": 800
+            },
+            "type": "IMAGE"
+          }
+        },
+        {
+          "key": "thumbnail_image",
+          "value": {
+            "image_value": {
+              "height": 150,
+              "url": "https://pbs.twimg.com/card_img/2035007639453646848/W5-poINK?format=jpg&name=280x150",
+              "width": 267
+            },
+            "type": "IMAGE"
+          }
+        },
+        {
+          "key": "description",
+          "value": {
+            "string_value": "Marta Pérez-Carbonell trae su última obra, “Mañana seguiré viva”, donde habla de maternidad y memoria, a Ali i Truc",
+            "type": "STRING"
+          }
+        },
+        {
+          "key": "domain",
+          "value": {
+            "string_value": "www.informacion.es",
+            "type": "STRING"
+          }
+        },
+        {
+          "key": "thumbnail_image_large",
+          "value": {
+            "image_value": {
+              "height": 320,
+              "url": "https://pbs.twimg.com/card_img/2035007639453646848/W5-poINK?format=jpg&name=800x320_1",
+              "width": 569
+            },
+            "type": "IMAGE"
+          }
+        },
+        {
+          "key": "summary_photo_image_small",
+          "value": {
+            "image_value": {
+              "height": 202,
+              "url": "https://pbs.twimg.com/card_img/2035007639453646848/W5-poINK?format=jpg&name=386x202",
+              "width": 386
+            },
+            "type": "IMAGE"
+          }
+        },
+        {
+          "key": "thumbnail_image_original",
+          "value": {
+            "image_value": {
+              "height": 675,
+              "url": "https://pbs.twimg.com/card_img/2035007639453646848/W5-poINK?format=jpg&name=orig",
+              "width": 1200
+            },
+            "type": "IMAGE"
+          }
+        },
+        {
+          "key": "site",
+          "value": {
+            "scribe_key": "publisher_id",
+            "type": "USER",
+            "user_value": {
+              "id_str": "92002486",
+              "path": []
+            }
+          }
+        },
+        {
+          "key": "photo_image_full_size_small",
+          "value": {
+            "image_value": {
+              "height": 202,
+              "url": "https://pbs.twimg.com/card_img/2035007639453646848/W5-poINK?format=jpg&name=386x202",
+              "width": 386
+            },
+            "type": "IMAGE"
+          }
+        },
+        {
+          "key": "summary_photo_image_large",
+          "value": {
+            "image_value": {
+              "height": 419,
+              "url": "https://pbs.twimg.com/card_img/2035007639453646848/W5-poINK?format=jpg&name=800x419",
+              "width": 800
+            },
+            "type": "IMAGE"
+          }
+        },
+        {
+          "key": "thumbnail_image_small",
+          "value": {
+            "image_value": {
+              "height": 81,
+              "url": "https://pbs.twimg.com/card_img/2035007639453646848/W5-poINK?format=jpg&name=144x144",
+              "width": 144
+            },
+            "type": "IMAGE"
+          }
+        },
+        {
+          "key": "thumbnail_image_x_large",
+          "value": {
+            "image_value": {
+              "height": 675,
+              "url": "https://pbs.twimg.com/card_img/2035007639453646848/W5-poINK?format=png&name=2048x2048_2_exp",
+              "width": 1200
+            },
+            "type": "IMAGE"
+          }
+        },
+        {
+          "key": "photo_image_full_size_original",
+          "value": {
+            "image_value": {
+              "height": 675,
+              "url": "https://pbs.twimg.com/card_img/2035007639453646848/W5-poINK?format=jpg&name=orig",
+              "width": 1200
+            },
+            "type": "IMAGE"
+          }
+        },
+        {
+          "key": "vanity_url",
+          "value": {
+            "scribe_key": "vanity_url",
+            "string_value": "informacion.es",
+            "type": "STRING"
+          }
+        },
+        {
+          "key": "photo_image_full_size",
+          "value": {
+            "image_value": {
+              "height": 314,
+              "url": "https://pbs.twimg.com/card_img/2035007639453646848/W5-poINK?format=jpg&name=600x314",
+              "width": 600
+            },
+            "type": "IMAGE"
+          }
+        },
+        {
+          "key": "thumbnail_image_color",
+          "value": {
+            "image_color_value": {
+              "palette": [
+                {
+                  "percentage": 58.49,
+                  "rgb": {
+                    "blue": 46,
+                    "green": 46,
+                    "red": 46
+                  }
+                },
+                {
+                  "percentage": 34.3,
+                  "rgb": {
+                    "blue": 153,
+                    "green": 153,
+                    "red": 153
+                  }
+                }
+              ]
+            },
+            "type": "IMAGE_COLOR"
+          }
+        },
+        {
+          "key": "title",
+          "value": {
+            "string_value": "La complejidad del ser humano en un libro presentado en Elche",
+            "type": "STRING"
+          }
+        },
+        {
+          "key": "summary_photo_image_color",
+          "value": {
+            "image_color_value": {
+              "palette": [
+                {
+                  "percentage": 58.49,
+                  "rgb": {
+                    "blue": 46,
+                    "green": 46,
+                    "red": 46
+                  }
+                },
+                {
+                  "percentage": 34.3,
+                  "rgb": {
+                    "blue": 153,
+                    "green": 153,
+                    "red": 153
+                  }
+                }
+              ]
+            },
+            "type": "IMAGE_COLOR"
+          }
+        },
+        {
+          "key": "summary_photo_image_x_large",
+          "value": {
+            "image_value": {
+              "height": 675,
+              "url": "https://pbs.twimg.com/card_img/2035007639453646848/W5-poINK?format=png&name=2048x2048_2_exp",
+              "width": 1200
+            },
+            "type": "IMAGE"
+          }
+        },
+        {
+          "key": "summary_photo_image",
+          "value": {
+            "image_value": {
+              "height": 314,
+              "url": "https://pbs.twimg.com/card_img/2035007639453646848/W5-poINK?format=jpg&name=600x314",
+              "width": 600
+            },
+            "type": "IMAGE"
+          }
+        },
+        {
+          "key": "photo_image_full_size_color",
+          "value": {
+            "image_color_value": {
+              "palette": [
+                {
+                  "percentage": 58.49,
+                  "rgb": {
+                    "blue": 46,
+                    "green": 46,
+                    "red": 46
+                  }
+                },
+                {
+                  "percentage": 34.3,
+                  "rgb": {
+                    "blue": 153,
+                    "green": 153,
+                    "red": 153
+                  }
+                }
+              ]
+            },
+            "type": "IMAGE_COLOR"
+          }
+        },
+        {
+          "key": "photo_image_full_size_x_large",
+          "value": {
+            "image_value": {
+              "height": 675,
+              "url": "https://pbs.twimg.com/card_img/2035007639453646848/W5-poINK?format=png&name=2048x2048_2_exp",
+              "width": 1200
+            },
+            "type": "IMAGE"
+          }
+        },
+        {
+          "key": "card_url",
+          "value": {
+            "scribe_key": "card_url",
+            "string_value": "https://t.co/tz1lTlbblk",
+            "type": "STRING"
+          }
+        },
+        {
+          "key": "summary_photo_image_original",
+          "value": {
+            "image_value": {
+              "height": 675,
+              "url": "https://pbs.twimg.com/card_img/2035007639453646848/W5-poINK?format=jpg&name=orig",
+              "width": 1200
+            },
+            "type": "IMAGE"
+          }
+        }
+      ],
+      "expanded_url": "https://www.informacion.es/elche/2026/03/20/elche-escritora-entrevista-marta-perez-carbonell-libro-128083845.html?utm_campaign=mrf-twitter-informacion_es&mrfcid=2026032069bbb8f62d04e35ef6fe7d30",
+      "retweet_tweet_id": null,
+      "extended_entities": null,
+      "conversation_id": "2035007635997544780",
+      "retweet_status": null,
+      "quoted_status": null,
+      "bookmark_count": 0,
+      "source": "Marfeel Amplify",
+      "community_note": null
+    }
+  ],
+  "continuation_token": "DAADDAABCgABHD3W2qdWoNYKAAIcPcyputdRTAAIAAIAAAACCAADAAAAAAgABAAAAAAKAAUcPdfjlEAnEAoABhw91-OUP9jwAAA"
+}
