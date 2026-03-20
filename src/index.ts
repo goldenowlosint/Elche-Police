@@ -6,6 +6,7 @@ import {
   disconnect as disconnectTelegram,
 } from "./clients/telegram";
 import { startFacebookMonitoring } from "./clients/facebook/groups";
+import { startTwitterMonitoring } from "./clients/twitter";
 
 const app = new Hono();
 
@@ -26,7 +27,10 @@ const startServer = async () => {
     await startTelegram();
 
     // Start Facebook group monitoring (runs immediately + daily cron)
-    startFacebookMonitoring();
+    // startFacebookMonitoring();
+
+    // Start Twitter monitoring (runs immediately + twice daily at 06:00 and 18:00)
+    startTwitterMonitoring();
   } catch (error: any) {
     console.error("Failed to start server:", error);
     SentryError(error);

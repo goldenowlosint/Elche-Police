@@ -48,3 +48,52 @@ model FacebookAnomaly {
   @@index([scrapedAt])
   @@map("facebook_anomalies")
 }
+
+model TwitterScan {
+  id                  String           @id @default(uuid())
+  scanDate            DateTime         @db.Date
+  scanTimestamp       DateTime
+  scrapedAt           DateTime         @default(now())
+  totalQueriesRun     Int
+  totalTweetsScanned  Int
+  anomaliesDetected   Int
+  queriesSummary      Json
+  anomalies           TwitterAnomaly[]
+
+  @@map("twitter_scans")
+}
+
+model TwitterAnomaly {
+  id               String   @id @default(uuid())
+  tweetId          String   @unique
+  text             String   @db.Text
+  userId           String?
+  username         String?
+  displayName      String?
+  followerCount    Int?
+  isVerified       Boolean  @default(false)
+  language         String?
+  favoriteCount    Int      @default(0)
+  retweetCount     Int      @default(0)
+  replyCount       Int      @default(0)
+  views            Int      @default(0)
+  mediaUrls        String[]
+  expandedUrl      String?  @db.Text
+  tweetCreatedAt   DateTime
+  severityLevel    Int
+  category         String
+  summary          String   @db.Text
+  detectedKeywords String[]
+  location         String?
+  searchQuery      String?
+  scrapedAt        DateTime @default(now())
+
+  scan   TwitterScan? @relation(fields: [scanId], references: [id])
+  scanId String?
+
+  @@index([category])
+  @@index([severityLevel])
+  @@index([scrapedAt])
+  @@index([tweetCreatedAt])
+  @@map("twitter_anomalies")
+}
